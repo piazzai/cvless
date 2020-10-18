@@ -1,0 +1,32 @@
+# seo tags
+title:        Michele Piazzai
+url:          https://piazzai.github.io
+description:  I am a computational social scientist who studies categorization in markets and an Assistant Professor of Management at Universidad Carlos III de Madrid (UC3M).
+
+# personal info
+firstname:    Michele
+lastname:     Piazzai
+organization: Universidad Carlos III de Madrid
+department:   Depto. Economía de la Empresa
+address:      C/Madrid 126, 28903 Getafe, ES
+office:       Normante 6.0.23
+phone:        +34 91 624 9322
+
+# footer buttons
+email:        michele.piazzai@uc3m.es
+scholar:      https://scholar.google.com/citations?user=qcJki2MAAAAJ
+orcid:        https://orcid.org/0000-0001-9676-7422
+github:       piazzai
+lichess:      piazzai
+
+# tracking id
+analytics:    UA-176763964-1
+
+# repository
+repo:         https://github.com/piazzai/piazzai.github.io
+
+# ruby gems
+plugins:
+  - jekyll-avatar
+  - jekyll-seo-tag
+  - jekyll-sitemap
