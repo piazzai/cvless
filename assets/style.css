@@ -1,0 +1,49 @@
+/* page structure */
+body {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 16pt;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 800px;
+}
+
+/* headers */
+h1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: -2rem;
+}
+
+h3 {
+  font-family: "Alegreya SC", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: -1.5rem;
+  text-transform: lowercase;
+}
+
+/* links */
+a:link, a:visited {
+  color: #001489;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: black;
+  text-decoration: underline;
+}
+
+#icon {
+  text-decoration: none;
+}
