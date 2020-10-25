@@ -1,32 +1,34 @@
 # seo tags
-title:        Michele Piazzai
-url:          https://piazzai.github.io
-description:  I am a computational social scientist who studies categorization in markets and an Assistant Professor of Management at Universidad Carlos III de Madrid (UC3M).
+title:        cvless
+description:  Jekyll theme for a beautiful online CV
 
 # personal info
-firstname:    Michele
-lastname:     Piazzai
-organization: Universidad Carlos III de Madrid
-department:   Depto. Economía de la Empresa
-address:      C/Madrid 126, 28903 Getafe, ES
-office:       Normante 6.0.23
-phone:        +34 91 624 9322
+firstname:    Place
+lastname:     Holder
+organization: University of Git
+department:   Department of Jekyll
+address:      123 Main St, Anytown, USA
+office:       Foobar Hall 1.23
+phone:        +1 234 567 890
+
+# navigation
+navtext:      About
+navlink:      https://github.com/piazzai/cvless/blob/master/README.md
 
 # footer buttons
-email:        michele.piazzai@uc3m.es
-scholar:      https://scholar.google.com/citations?user=qcJki2MAAAAJ
-orcid:        https://orcid.org/0000-0001-9676-7422
-github:       piazzai
-lichess:      piazzai
+email:        username@domain.com
+scholar:      https://scholar.google.com/citations?user=xxxxxxxxxxxx
+orcid:        https://orcid.org/0000-0000-0000-0000
+lichess:      username
+github:       username
 
 # tracking id
-analytics:    UA-176763964-1
+analytics:    XX-000000000-0
 
 # repository
-repo:         https://github.com/piazzai/piazzai.github.io
+repo:         https://github.com/username/username.github.io
 
 # ruby gems
 plugins:
-  - jekyll-avatar
   - jekyll-seo-tag
   - jekyll-sitemap
