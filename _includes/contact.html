@@ -27,6 +27,10 @@
     </ul>
   </div>
   <div class="right column">
-    <img class="avatar" src="https://github.com/{{ site.github }}.png" alt="{{ site.firstname }} {{ site.lastname }}" />
+    {% if site.photo %}
+    <img class="avatar" src="{{ site.photo }}" />
+    {% else %}
+    <img class="avatar" src="https://github.com/{{ site.github }}.png" />
+    {% endif %}
   </div>
 </div>
