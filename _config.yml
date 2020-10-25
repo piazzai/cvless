@@ -5,6 +5,7 @@ description:  Jekyll theme for a beautiful online CV
 # personal info
 firstname:    Place
 lastname:     Holder
+#photo:       assets/myphoto.png
 organization: University of Git
 department:   Department of Jekyll
 address:      123 Main St, Anytown, USA
@@ -19,7 +20,7 @@ navlink:      https://github.com/piazzai/cvless/blob/master/README.md
 email:        username@domain.com
 scholar:      https://scholar.google.com/citations?user=xxxxxxxxxxxx
 orcid:        https://orcid.org/0000-0000-0000-0000
-lichess:      username
+#lichess:     username
 github:       username
 
 # tracking id
