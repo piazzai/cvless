@@ -115,6 +115,10 @@ footer {
 
 /* mobile settings */
 @media only screen and (max-width: 54em) {
+  body {
+    font-size: 16pt;
+  }
+
   .wrapper {
     margin: 0 5%;
   }
