@@ -8,12 +8,16 @@
         {% endif %}
         {{ site.address }}
       </li>
+      {% if site.office %}
       <li><span class="fa-li"><i class="fas fa-door-open"></i></span>
         {{ site.office }}
       </li>
+      {% endif %}
+      {% if site.phone %}
       <li><span class="fa-li"><i class="fas fa-phone-alt"></i></span>
         {{ site.phone }}
       </li>
+      {% endif %}
       <li><span class="fa-li"><i class="fas fa-envelope"></i></span>
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </li>
