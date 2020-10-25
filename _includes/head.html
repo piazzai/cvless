@@ -3,7 +3,6 @@
   <meta name="viewport" content="width=device-width" />
 
   <script src="https://kit.fontawesome.com/4fb5cb0243.js" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@v1.9.0/css/academicons.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/piazzai/nonacademicons@v1.0.0/css/nonacademicons.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Alegreya+Sans:wght@900&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
@@ -16,18 +15,8 @@
   {% endif %}
 
   {% if site.analytics %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.analytics }}');
-  </script>
+  {% include analytics.html %}
   {% endif %}
-
+  
   {% seo %}
 </head>
