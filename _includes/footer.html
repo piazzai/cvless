@@ -1,0 +1,31 @@
+<footer>
+  <div class="wrapper">
+    <div class="columns">
+      <div class="left column footnote">
+        {{ site.firstname | prepend: "&copy; <script>document.write(new Date().getFullYear())</script> " }} {{ site.lastname }}<br />
+        <a href="https://jekyllrb.com/">Engine</a> · <a href="https://github.com/piazzai/cvless">Theme</a> · <a href="{{ site.repo }}">Source</a><br /><br />
+        <i class="fas fa-print"></i>&nbsp;&nbsp;<a href="javascript:window.print()">Print this page</a>
+      </div>
+      <div class="left column footnote">
+        {{ site.organization }}<br />
+        {% if site.department %}
+        {{ site.department }}<br />
+        {% endif %}
+        {{ site.address }}
+      </div>
+      <div class="right column">
+        <a href="mailto:{{ site.email }}" class="fas fa-2x fa-envelope-square" title="Email" id="icon"></a>
+        {% if site.scholar %}
+        <a href="{{ site.scholar }}" class="ai ai-2x ai-google-scholar-square" title="Google Scholar" id="icon"></a>
+        {% endif %}
+        {% if site.orcid %}
+        <a href="{{ site.orcid }}" class="ai ai-2x ai-orcid-square" title="ORCID" id="icon"></a>
+        {% endif %}
+        {% if site.lichess %}
+        <a href="https://lichess.org/@/{{ site.lichess }}" class="nai nai-2x nai-lichess-square" title="Lichess" id="icon"></a>
+        {% endif %}
+        <a href="https://github.com/{{ site.github }}" class="fab fa-2x fa-github-square" title="GitHub" id="icon"></a>
+      </div>
+    </div>
+  </div>
+</footer>
