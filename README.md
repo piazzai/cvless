@@ -1,65 +1,95 @@
-# cvless (under construction)
+# cvless
 
-Cvless is a minimalist theme for static websites built with Jekyll. The theme strives for simplicity and readability by following best practices of web design, including the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and [responsive layout](https://responsivedesign.is). Its typography is based on the Alegreya font family, one of the 53 Fonts of the Decade selected by the _Association Typographique Internationale_ (2011).
+Cvless is a minimalist theme for static websites built with Jekyll. The theme strives for simplicity and readability by following best practices of web design, including the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and [responsive layout](https://responsivedesign.is). Its typography is based on the Alegreya typeface, one of the 53 Fonts of the Decade selected by the _Association Typographique Internationale_ (2011).
 
-Placing a CV with picture directly on the homepage, cvless aims to discourage wordy introductions and highlight professional achievements. Printing the homepage automatically removes some design elements in order to give the CV a more traditional (paperlike) feel. This means you no longer have to maintain a separate CV for PDF distribution.
+Placing a CV with picture directly on the homepage, cvless aims to discourage wordy introductions and highlight professional achievements. If you print the homepage, the layout automatically changes to give the CV a more traditional appearance. This means you no longer have to maintain a separate CV for offline distribution.
 
 See [my personal website](https://piazzai.github.io) to get a better sense of what the theme looks like.
 
 ### Main features
 
--   Alegreya superfamily (regular, italic, small caps), courtesy of [Google Fonts](https://fonts.google.com).
--   Hundreds of icons sourced from [Font Awesome](https://fontawesome.com), [Academicons](https://github.com/jpswalsh/academicons), and [Nonacademicons](https://github.com/piazzai/nonacademicons).
--   Responsive design for comfortable view on smartphones and small screens.
--   Automatic search engine optimization, including metadata and sitemap.
--   Optional integration of Google Analytics for monitoring website traffic.
--   Icon links to external profiles and social media in the footer.
+-   Extensive use of the Alegreya superfamily, courtesy of [Google Fonts](https://fonts.google.com), gives your website a classic but dynamic feel.
+-   Hundreds of icons sourced from [Font Awesome](https://fontawesome.com), [Academicons](https://github.com/jpswalsh/academicons), and [Nonacademicons](https://github.com/piazzai/nonacademicons) enrich your links to internal or external documents, online services, and social media.
+-   The design responsively switches to a one-column grid when viewed on small screens, allowing more comfortable visualization on smartphones.
+-   Jekyll plugins automatically handle search engine optimization, converting the title and description of your site into metadata and creating a sitemap.
+-   Optional integration of Google Analytics code enables monitoring of website traffic.
+
+* * *
+
+## Table of contents
+
+-   [Installation](#installation)
+-   [Configuration](#configuration)
+-   [Usage](#usage)
+-   [Customization](#customization)
+    -   [Accent color](#accent-color)
+    -   [Favicon](#favicon)
+-   [Extensions](#extensions)
+    -   [Adding a page](#adding-a-page)
+    -   [Adding one more page](#adding-one-more-page)
+    -   [Adding footer icons](#adding-footer-icons)
+
+* * *
 
 ## Installation
 
 1.  Clone this repository.
-2.  Rename it to `[username].github.io`.
+2.  Rename it to `[username].github.io`
 3.  Start editing!
 
-## Usage
-
-The three steps above will create a basic website structure in your local folder. The file `index.md` should be edited with the content of your CV. This will be shown along with your contact details and photo on the homepage. The CV can be written in [Markdown](https://www.markdownguide.org/basic-syntax), possibly with the inclusion of HTML elements.
-
-### Configuration
+## Configuration
 
 Most of the site's configuration happens in `_config.yml`. The website's HTML uses variables set within this file, so that changing these variables will affect the site's appearance and behavior.
 
-Most variables are mandatory, and omitting them will break parts of the HTML. However, some are optional and can be omitted without consequence. This can be done by either deleting the line with the variable or commenting it out. To comment out a line, you need to write `#` at the beginning, as in the following example:
+Most variables are mandatory and failing to set them will break parts of the HTML. Some variables are optional and can be omitted without consequence. This can be done by either deleting the line or commenting it out with `#`, as in the following example:
 
 ```yaml
 organization: University of Git
 #department:   Department of Jekyll
-address:      123 Main St, Anytown
+address:      123 Main St, Anytown, USA
 ```
 
-| Variable                                        | Description                                                                                                                                                                                                                                                                 |
-| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `title`                                         | The title of your website, which appears in the tab of your browser and in search engine results.                                                                                                                                                                           |
-| `description`                                   | A short description of your website as it appears in search engine results. Please be aware that descriptions longer than 160 characters will be truncated.                                                                                                                 |
-| `firstname`<br />`lastname`                     | Your first and last name, which appear in the website's header and copyright notice.                                                                                                                                                                                        |
-| `photo`                                         | A personal picture (optional) that appears at the top of your CV. If omitted, the photo defaults to the avatar of your GitHub account.                                                                                                                                      |
-| `organization`<br />`department`<br />`address` | Three lines of contact details that appear at the top of your CV and in the website's footer. The middle one (`department`) is optional and can be omitted.                                                                                                                 |
-| `office`<br />`phone`                           | Your office and phone numbers (optional) for visiting or calling purposes. These appear among your contact details.                                                                                                                                                         |
-| `navtext`                                       | A short text (optional) that links to an external website, or to another page of your site, and that appears in the website's header. If a link is not needed, `navtext` can be used as a short tagline that describes your job or interests, or omitted entirely.          |
-| `navlink`                                       | The (optional) URL to which `navtext` should redirect in case it is a link. If this is omitted but `navtext` is not, `navtext` behaves as plain text.                                                                                                                       |
-| `email`                                         | Your email address, which appears among the contact details and is linked by an envelope icon in the website's footer.                                                                                                                                                      |
-| `scholar`                                       | The (optional) URL of your profile on [Google Scholar](https://scholar.google.com). If included, this is linked by a Google Scholar icon in the website's footer.                                                                                                           |
-| `orcid`                                         | The (optional) URL of your profile on [ORCID](https://orcid.org). If included, this is linked by an ORCID icon in the website's footer.                                                                                                                                     |
-| `lichess`                                       | Your username on [Lichess](https://lichess.org) (optional). If included, this is linked by a Lichess icon in the website's footer. Unless you are a chess nerd you will not need this, but it is there to demonstrate that you can link pretty much anything in the footer. |
-| `github`                                        | Your username on GitHub. This is linked by a GitHub icon in the website's footer, and it is also used to source your CV picture. This will be the avatar of your GitHub account, unless `photo` is specified.                                                               |
-| `analytics`                                     | Your [Google Analytics](https://analytics.google.com) Tracking ID (optionla). If you have an Analytics account, you can find this on the dashboard after adding your website to the list of tracked sites. If included, it will automatically enable tracking.              |
-| `repo`                                          | The URL of your website's repository, which is linked in the website's footer.                                                                                                                                                                                              |
+| Variable                                          | Description                                                                                                                                                                                                                                                                           |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `title`                                           | The title of your website, which appears in the tab of your browser and in search engine results.                                                                                                                                                                                     |
+| `description`                                     | A short description of your website as it appears in search engine results. Please be aware that descriptions longer than 160 characters will be truncated by most engines.                                                                                                           |
+| `firstname`                                       | Your first name as it appears in the website's header and copyright notice.                                                                                                                                                                                                           |
+| `lastname`                                        | Your last name, which also appears in the website's header and copyrightlace of this code y notice.                                                                                                                                                                                   |
+| `photo`                                           | A personal picture (optional) that appears at the top of your CV. If omitted, the photo defaults to the avatar of your GitHub account.                                                                                                                                                |
+| `organization`,<br />`department`,<br />`address` | Three lines of contact details that appear at the top of your CV and in the website's footer. The middle line (`department`) is optional and can be omitted.                                                                                                                          |
+| `office`                                          | Your office number or location (optional) for mailing or visiting purposes. This appears among your contact details.                                                                                                                                                                  |
+| `phone`                                           | Your phone number (optional), which also appears among your contact details.                                                                                                                                                                                                          |
+| `navtext`                                         | A short text (optional) that links to an external website or to another page of your site, which appears in the website's header. If a link is not needed, `navtext` can be used as a short tagline that describes your job or interests or omitted entirely.                         |
+| `navlink`                                         | The (optional) URL to which `navtext` should redirect in case it is a link. If this is omitted but `navtext` is not, `navtext` behaves as plain text.                                                                                                                                 |
+| `email`                                           | Your email address, which appears among the contact details and is linked by an envelope icon in the website's footer.                                                                                                                                                                |
+| `scholar`                                         | The (optional) URL of your profile on [Google Scholar](https://scholar.google.com). If included, this is linked by a Google Scholar icon in the website's footer.                                                                                                                     |
+| `orcid`                                           | The (optional) URL of your profile on [ORCID](https://orcid.org). If included, this is linked by an ORCID icon in the website's footer.                                                                                                                                               |
+| `lichess`                                         | Your username on [Lichess](https://lichess.org) (optional). If included, this is linked by a Lichess icon in the website's footer. Unless you are a chess player you will not need this, but it is there to demonstrate that you can link pretty much anything through a footer icon. |
+| `github`                                          | Your username on GitHub. This is linked by a GitHub icon in the website's footer and used to source your CV picture. This will be the avatar of your GitHub account, unless `photo` is specified.                                                                                     |
+| `analytics`                                       | Your [Google Analytics](https://analytics.google.com) Tracking ID (optionla). If you have an Analytics account, you can find this on the dashboard after adding your website to the list of tracked sites. If included, it will automatically enable tracking.                        |
+| `repo`                                            | The URL of your website's repository, which is linked in the website's footer.                                                                                                                                                                                                        |
 
-The final lines of `_config.yml` list some Jekyll plugins needed for search engine optimization. Do not modify or remove these lines.
+The final lines list some Jekyll plugins needed for search engine optimization and to help web crawler index your site. In the interest of having your site score well in search results, do not delete or modify these lines.
+
+## Usage
+
+The file `index.md` should be edited to include the body of your CV. This will be shown along with your contact details and photo on the homepage. You can print the CV to PDF through your browser, as you would for any web page, but also through the print button that appears in the theme's footer. Depending on your browser, this button may be the only way to access print layout options, where you can remove the metadata (page title, URL, timestamp, etc.) that by default appear along the borders of the printed page.
+
+To write your CV, you can use the usual [Markdown syntax](https://www.markdownguide.org/basic-syntax), possibly with the inclusion of HTML elements like icons. [Font Awesome](https://fontawesome.com), [Academicons](https://github.com/jpswalsh/academicons), and [Nonacademicons](https://github.com/piazzai/nonacademicons) are automatically loaded by the theme and offer a wide selection of icons. For example, the following code outputs one icon from each pack, in varying size:
+
+```html
+<i class="fab fa-github"></i>
+<i class="ai ai-repec ai-lg"></i>
+<i class="nai nai-lichess nai-4x"></i>
+```
+
+See the icon packs' documentation for more detailed usage instructions.
+
+## Customization
 
 ### Accent color
 
-By default, the accent color is set to a dark blue with HEX code `#001489`. To change this to a color of your choosing, you need to follow two steps. First, open `assets/style.css` and look for the following code chunks:
+By default, the accent color is set to a dark blue with hex code #001489. To change this to a color of your choosing, you need to follow two steps. First, open `assets/style.css` and look for the following chunks:
 
 ```css
 a:link, a:visited {
@@ -83,7 +113,7 @@ a:link, a:visited {
 }
 ```
 
-You should change the HEX code in these chunks to the one corresponding to your color. You can use an [online tool](https://colorpicker.me) to find the HEX code of any color. In place of this code you can also use the name of an [HTML color](https://www.htmlcsscolor.com/html-color-names). For example:
+You should change the hex code in these chunks to the one corresponding to your chosen color. An [online tool](https://colorpicker.me) can help you convert colors into hex codes. You can also write the name of any [HTML color](https://www.htmlcsscolor.com/html-color-names) in place of the hex code, as in the example below:
 
 ```css
 a:link, a:visited {
@@ -107,22 +137,101 @@ a:link, a:visited {
 }
 ```
 
+The second step is minifying the CSS. You can also do this quickly with an [online tool](https://cssminifier.com): just copy the full content of `assets/style.css` into the input field and paste the content of the output field into `assets/style.min.css`.
+
 ### Favicon
 
-The theme ships with a favicon consisting of the letters CV in Alegreya serif against a white square with rounded corners. This icon can be substitute for any other of your choosing by replacing `favicon.ico` in the site's root folder. [Here](https://favicon.io) is a helpful tool to create your favicon from a PNG image, from text (as in the default icon), or from an emoji. The tool delivers an icon of appropriate size.
+The theme ships with a favicon consisting of the letters CV in lowercase Alegreya serif against a round white background. You can substitute this for any icon of your choosing by replacing `favicon.ico` in the site's root folder. [Here](https://favicon.io) is a helpful tool to create your own favicon from an image, text, or emoji.
 
-### Icon packs
+## Extensions
 
-The [Font Awesome](https://fontawesome.com), [Academicons](https://github.com/jpswalsh/academicons), and [Nonacademicons](https://github.com/piazzai/nonacademicons) packs are automatically sourced by the theme. This means you can use any icon in these packs using the syntax prescribed by their documentation. For example, the following code outputs one icon from each pack, in varying sizes:
+### Adding a page
 
-```html
-<i class="fas fa-gears"></i>
-<i class="ai ai-4x ai-repec"></i>
-<i class="nai nai-lg nai-lichess"></i>
+An extra page (beyond the home) can be added to your site with minimal effort. For example, if you are an academic, you might want to add a page about your research interests. In order to do this, you should first create a new text file called `research.md` and give it the following front matter:
+
+```yml
+---
+layout: default
+title: Research
+---
 ```
 
-See the icon packs' instructions for full details on their usage.
+Then, open `_config.yml` and change the values of `navtext` and `navlink`:
 
-### Printing
+```yml
+navtext:      Research
+navlink:      research.md
+```
 
-You can print the CV through your browser, as you would for any web page, but also through the print button that appears in the theme's footer. Depending on your browser, using this button may be the only way to access layout options, where you can remove the metadata (page title, URL, timestamp, etc.) that by default appear along the borders of the printed page.
+Done! Your new page will now appear in the navigation bar. Like the home, you can edit it with [Markdown](https://www.markdownguide.org/basic-syntax) and HTML syntax.
+
+### Adding one more page
+
+Perhaps you want to add two new pages instead of one. For example, if you are an academic, you might want to have separate pages for your research and teaching interests. In the case of a second extra page, the procedure is slightly more involved.
+
+First, create a new text file called `teaching.md` and specify the default layout in front matter. Then, open `_config.yml` and, right below the lines that set the values of `navtext` and `navlink`, add:
+
+```yml
+navtext2:     Teaching
+navlink2:     teaching.md
+```
+
+Next, open the file `_includes/header.html` and look for the following code chunk:
+
+```html
+{% if site.navtext %}
+{% if site.navlink %}
+<div class="right column">
+  <a href="{{ site.navlink }}" id="navbar">{{ site.navtext }}</a>
+</div>
+{% else %}
+<div class="right column">
+  {{ site.navtext }}
+</div>
+{% endif %}
+{% endif %}
+```
+
+This governs the behavior of `navtext` and `navlink`. You need to replicate it for your two new variables. Add the following code immediately below:
+
+```html
+{% if site.navtext2 and site.navlink2 %}
+<div class="right column">
+  <a href="{{ site.navlink2 }}" id="navbar">{{ site.navtext2 }}</a>
+</div>
+{% endif %}
+```
+
+Now the navigation bar will display both extra pages, but only if the values of `navtext2` and `navlink2` have been set in the configuration file. The use of [Liquid control flow](https://shopify.github.io/liquid/tags/control-flow) ensures that, if you change your mind later and wish to remove the second extra page, you can delete or comment out these variables in `_config.yml` without further changing `_includes/header.html`.
+
+You could, in principle, repeat this procedure to add as many pages as you want, but you are likely to run out of space in the navigation bar. The theme is intended for a simple website that focuses on your CV.
+
+### Adding footer icons
+
+Depending on your job and interests, you might want to change the icons linking to social media and other online services that appear in the footer. Google Scholar, ORCID, and Lichess profiles are supported by default (in addition to GitHub, which is mandatory). To include these links in the footer, you only have to set the relevant variables in `_config.yml`.
+
+You can easily add other profiles. For example, you might want to have a link to your Twitter handle. Font Awesome provides a Twitter icon, with name `fab fa-twitter-square`. In order to include this in the footer, first create a variable with your username in the configuration file:
+
+```yml
+twitter:      username
+```
+
+Suppose you want to add the Twitter icon right before the GitHub icon in the footer. Open `_includes/footer.html` and look for the following code chunk:
+
+```html
+{% if site.github %}
+<a href="https://github.com/{{ site.github }}" class="fab fa-2x fa-github-square" title="GitHub" id="icon"></a>
+{% endif %}
+```
+
+Right above, insert the following:
+
+```html
+{% if site.twitter %}
+<a href="https://twitter.com/{{ site.twitter }}" class="fab fa-2x fa-twitter-square" title="Twitter" id="icon"></a>
+{% endif %}
+```
+
+Done! Now the footer will display the Twitter icon. Like before, [Liquid code](https://shopify.github.io/liquid) ensures that if you later change your mind later you can simply delete or comment out the Twitter variable in `_config.yml` without making further changes to the footer's HTML.
+
+Take a look at the [Font Awesome catalog](https://fontawesome.com/icons?d=gallery) for an overview of all the icons you can use. If you are an academic, chances are you will not find some of the icons you want, but you can look in the [Academicons catalog](http://jpswalsh.github.io/academicons). If you cannot find them here either, or if you are looking for icons unrelated to academia, please consider making a request for addition to [Nonacademicons](https://github.com/piazzai/nonacademicons).
