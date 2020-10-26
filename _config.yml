@@ -5,7 +5,7 @@ description:  Jekyll theme for a beautiful online CV
 # personal info
 firstname:    Place
 lastname:     Holder
-#photo:       assets/myphoto.png
+photo:        assets/photo.png
 organization: University of Git
 department:   Department of Jekyll
 address:      123 Main St, Anytown, USA
@@ -13,7 +13,7 @@ office:       Foobar Hall 1.23
 phone:        +1 234 567 890
 
 # navigation
-navtext:      About
+navtext:      README
 navlink:      https://github.com/piazzai/cvless/blob/master/README.md
 
 # footer buttons
