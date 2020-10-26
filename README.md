@@ -1,18 +1,10 @@
 # cvless
 
-Cvless is a minimalist theme for static websites built with Jekyll. The theme strives for simplicity and readability by following best practices of web design, including the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and [responsive layout](https://responsivedesign.is). Its typography is based on the Alegreya typeface, one of the 53 Fonts of the Decade selected by the _Association Typographique Internationale_ (2011).
+Cvless is a minimalist theme for static websites built with Jekyll, loosely based on the [Academic](https://github.com/gaalcaras/academic) theme developed by Gabriel Alcaras. The theme strives for simplicity and readability by following best practices of web design, including the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and [responsive layout](https://responsivedesign.is). Its typography is based on the Alegreya typeface, one of the 53 Fonts of the Decade selected by the Association Typographique Internationale (2011).
 
 Placing a CV with picture directly on the homepage, cvless aims to discourage wordy introductions and highlight professional achievements. If you print the homepage, the layout automatically changes to give the CV a more traditional appearance. This means you no longer have to maintain a separate CV for offline distribution.
 
 See [my personal website](https://piazzai.github.io) to get a better sense of what the theme looks like.
-
-### Main features
-
--   Extensive use of the Alegreya superfamily, courtesy of [Google Fonts](https://fonts.google.com), gives your website a classic but dynamic feel.
--   Hundreds of icons sourced from [Font Awesome](https://fontawesome.com), [Academicons](https://github.com/jpswalsh/academicons), and [Nonacademicons](https://github.com/piazzai/nonacademicons) enrich your links to internal or external documents, online services, and social media.
--   The design responsively switches to a one-column grid when viewed on small screens, allowing more comfortable visualization on smartphones.
--   Jekyll plugins automatically handle search engine optimization, converting the title and description of your site into metadata and creating a sitemap.
--   Optional integration of Google Analytics code enables monitoring of website traffic.
 
 ### Table of contents
 
