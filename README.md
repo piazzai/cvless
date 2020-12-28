@@ -91,11 +91,6 @@ a:link, a:visited {
 ```
 
 ```css
-#titlebar:hover {
-  border-bottom: .4em solid #001489;
-  text-decoration: none;
-}
-
 #navbar {
   color: #001489;
   font-family: "Alegreya SC", serif;
@@ -115,11 +110,6 @@ a:link, a:visited {
 ```
 
 ```css
-#titlebar:hover {
-  border-bottom: .4em solid firebrick;
-  text-decoration: none;
-}
-
 #navbar {
   color: firebrick;
   font-family: "Alegreya SC", serif;
