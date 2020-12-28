@@ -3,8 +3,8 @@ layout: home
 title: CV
 ---
 
-## Level 2 header
+## Section
 
-### Level 3 header
+### Subsection
 
-Body text
+Lorem ipsum dolor sit amet.
