@@ -84,12 +84,12 @@ See the icon packs' documentation for more detailed usage instructions.
 
 ### Accent color
 
-By default, the accent color is set to a red shade with hex code D40000. To change this to a color of your choosing, you need to follow two steps. First, open `assets/style.css` and look for the following chunks:
+By default, the accent color is set to a blue shade with hex code 0047AB. To change this to a color of your choosing, you need to follow two steps. First, open `assets/style.css` and look for the following chunks:
 
 ```css
 /* lines 73 to 76 */
 a:link, a:visited, #icon:hover, #icon:active {
-  color: #d40000;
+  color: #0047ab;
   text-decoration: none;
 }
 ```
@@ -97,7 +97,7 @@ a:link, a:visited, #icon:hover, #icon:active {
 ```css
 /* lines 103 to 106 */
 #titlebar:hover, #navbar:hover {
-  border-bottom: .4em solid #d40000;
+  border-bottom: .4em solid #0047ab;
   text-decoration: none;
 }
 ```
@@ -108,11 +108,11 @@ a:link, a:visited, #icon:hover, #icon:active {
   padding: 0 .25em;
   border-bottom: 0;
   color: #f5f5f5;
-  background-color: #d40000;
+  background-color: #0047ab;
 }
 ```
 
-You should change the hex code in these chunks to the one corresponding to your chosen color. You can use [an online tool](https://colorpicker.me) to convert colors into hex codes. You can also write the name of any [HTML color](https://www.htmlcsscolor.com/html-color-names) in place of the hex code, as in `color: firebrick;`.
+You should change the hex `0047ab` in these chunks to the one corresponding to your chosen color. You can use [an online tool](https://colorpicker.me) to convert colors into hex codes. You can also write the name of any [HTML color](https://www.htmlcsscolor.com/html-color-names) in place of the hex code, as in `color: firebrick;`.
 
 The second step is minifying the CSS. You can do this easily with [an online tool](https://cssminifier.com): just copy the full content of `assets/style.css` into the input field and paste the content of the output field into `assets/style.min.css`. Do not skip this step or your changes to the CSS will be ignored.
 
