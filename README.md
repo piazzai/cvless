@@ -53,6 +53,7 @@ Below is a list of all the variables and their descriptions.
 | `phone`                                         | Your phone number (optional), which also appears among your contact details.                                                                                                                                                                                                             |
 | `navtext`                                       | A short text (optional) that links to an external or internal web page. If included, this appears at the right end of the website's header. If a link to another page is not needed, `navtext` can be used as a short tagline that describes your job or interests, or omitted entirely. |
 | `navlink`                                       | The (optional) URL to which `navtext` should redirect in case you wish to use it as a link. If this is omitted but `navtext` is not, `navtext` is rendered as plain text.                                                                                                                |
+| `cv`                                            | The (optional) path to a PDF version of your cv. If included, the button in the footer changes from "Print CV" to "Download CV" and features a download icon.                                                                                                                            |
 | `email`                                         | Your email address, which appears among the contact details and is linked by an envelope icon in the website's footer.                                                                                                                                                                   |
 | `scholar`                                       | The (optional) URL of your profile on [Google Scholar](https://scholar.google.com). If included, this is linked by a Google Scholar icon in the website's footer.                                                                                                                        |
 | `orcid`                                         | The (optional) URL of your profile on [ORCID](https://orcid.org). If included, this is linked by an ORCID icon in the website's footer.                                                                                                                                                  |
@@ -66,6 +67,8 @@ The final lines of `_config.yml` list some Jekyll plugins needed for search engi
 ## Usage
 
 The file `index.md` should be edited to include the body of your CV. Whatever you write here will be shown along with your contact details and photo on the homepage. You can print the CV to PDF through your browser, as you would for any web page, but also through the print button that appears in the footer. Depending on your browser, this button may be the only way to access print layout options, where you can remove the metadata (page title, URL, timestamp, etc.) that by default appear along the borders of the printed page.
+
+Alternatively, you can specify the path to a CV using the site variable `cv` in `_config.yml`. If you do so, the print icon in the button will change to a download icon.
 
 To write your CV, you can use the usual [Markdown syntax](https://www.markdownguide.org/basic-syntax), possibly with the inclusion of HTML elements like images or icons. [Font Awesome](https://fontawesome.com), [Academicons](https://github.com/jpswalsh/academicons), and [Nonacademicons](https://github.com/piazzai/nonacademicons) are automatically loaded by the theme and offer a wide selection of icons for your use. For example, the following code outputs one icon from each pack, in varying size:
 
@@ -81,45 +84,37 @@ See the icon packs' documentation for more detailed usage instructions.
 
 ### Accent color
 
-By default, the accent color is set to a dark blue with hex code 001489. To change this to a color of your choosing, you need to follow two steps. First, open `assets/style.css` and look for the following chunks:
+By default, the accent color is set to a red shade with hex code D40000. To change this to a color of your choosing, you need to follow two steps. First, open `assets/style.css` and look for the following chunks:
 
 ```css
-a:link, a:visited {
-  color: #001489;
+/* lines 73 to 76 */
+a:link, a:visited, #icon:hover, #icon:active {
+  color: #d40000;
   text-decoration: none;
 }
 ```
 
 ```css
-#navbar {
-  color: #001489;
-  font-family: "Alegreya SC", serif;
-  font-size: 1.5em;
-  font-weight: 400;
-  text-transform: lowercase;
-}
-```
-
-You should change the hex code in these chunks to the one corresponding to your chosen color. You can use [an online tool](https://colorpicker.me) to convert colors into hex codes. You can also write the name of any [HTML color](https://www.htmlcsscolor.com/html-color-names) in place of the hex code, as in the example below:
-
-```css
-a:link, a:visited {
-  color: firebrick;
+/* lines 103 to 106 */
+#titlebar:hover, #navbar:hover {
+  border-bottom: .4em solid #d40000;
   text-decoration: none;
 }
 ```
 
 ```css
-#navbar {
-  color: firebrick;
-  font-family: "Alegreya SC", serif;
-  font-size: 1.5em;
-  font-weight: 400;
-  text-transform: lowercase;
+/* lines 147 to 152 */
+#titlebar:hover, #navbar:hover {
+  padding: 0 .25em;
+  border-bottom: 0;
+  color: #f5f5f5;
+  background-color: #d40000;
 }
 ```
 
-After taking care of this, the second step is minifying the CSS. You can do this easily with [another online tool](https://cssminifier.com): just copy the full content of `assets/style.css` into the input field and paste the content of the output field into `assets/style.min.css`. Do not skip this step or your changes to the CSS will be ignored.
+You should change the hex code in these chunks to the one corresponding to your chosen color. You can use [an online tool](https://colorpicker.me) to convert colors into hex codes. You can also write the name of any [HTML color](https://www.htmlcsscolor.com/html-color-names) in place of the hex code, as in `color: firebrick;`.
+
+The second step is minifying the CSS. You can do this easily with [an online tool](https://cssminifier.com): just copy the full content of `assets/style.css` into the input field and paste the content of the output field into `assets/style.min.css`. Do not skip this step or your changes to the CSS will be ignored.
 
 ### Favicon
 
