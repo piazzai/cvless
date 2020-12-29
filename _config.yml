@@ -16,6 +16,9 @@ phone:        +1 234 567 890
 navtext:      README
 navlink:      https://github.com/piazzai/cvless/blob/master/README.md
 
+# cv pdf
+#cv:           cv.pdf
+
 # footer buttons
 email:        username@domain.com
 scholar:      https://scholar.google.com/citations?user=xxxxxxxxxxxx
