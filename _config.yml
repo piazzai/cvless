@@ -5,9 +5,9 @@ description:  Jekyll theme for a beautiful online CV
 # personal info
 firstname:    Place
 lastname:     Holder
-photo:        assets/photo.png
-organization: University of Git
-department:   Department of Jekyll
+photo:        assets/photo.jpg
+organization: University of Jekyll
+department:   Department of Themes
 address:      123 Main St, Anytown, USA
 office:       Foobar Hall 1.23
 phone:        +1 234 567 890
