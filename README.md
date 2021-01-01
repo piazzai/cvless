@@ -6,6 +6,8 @@ Placing a CV with picture directly on the homepage, cvless aims to discourage wo
 
 See [my personal website](https://piazzai.github.io) to get a better sense of what the theme looks like.
 
+![](https://github.com/piazzai/cvless/blob/master/demo.jpg)
+
 ### Table of contents
 
 -   [Installation](#installation)
