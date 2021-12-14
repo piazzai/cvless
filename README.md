@@ -89,7 +89,6 @@ See the icon packs' documentation for more detailed usage instructions.
 By default, the accent color is set to a blue shade with hex code 0047AB. To change this to a color of your choosing, you need to follow two steps. First, open `assets/style.css` and look for the following chunks:
 
 ```css
-/* lines 73 to 76 */
 a:link, a:visited, #icon:hover, #icon:active {
   color: #0047ab;
   text-decoration: none;
@@ -97,7 +96,6 @@ a:link, a:visited, #icon:hover, #icon:active {
 ```
 
 ```css
-/* lines 103 to 106 */
 #titlebar:hover, #navbar:hover {
   border-bottom: .4em solid #0047ab;
   text-decoration: none;
@@ -105,7 +103,6 @@ a:link, a:visited, #icon:hover, #icon:active {
 ```
 
 ```css
-/* lines 147 to 152 */
 #titlebar:hover, #navbar:hover {
   padding: 0 .25em;
   border-bottom: 0;
