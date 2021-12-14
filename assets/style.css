@@ -2,6 +2,7 @@
 /* cultured (white): f5f5f5
 /* sumi (black): 27221f
 /* corsa (red): d40000
+/* fern (green): 4f7942
 /* cobalt (blue): 0047ab
 
 /* page structure */
@@ -94,10 +95,8 @@ header {
 
 #navbar {
   color: #27221f;
-  font-family: "Alegreya SC", serif;
   font-size: 1.5em;
   font-weight: 400;
-  text-transform: lowercase;
 }
 
 #titlebar:hover, #navbar:hover {
