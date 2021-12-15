@@ -33,7 +33,7 @@ See [my personal website](https://piazzai.github.io) to get a better sense of wh
 
 Most of the site's configuration happens in `_config.yml`. The website's HTML uses variables set within this file, so that changing things here will affect the site's appearance and behavior.
 
-Many variables are mandatory and failing to set them will break parts of the HTML. Some variables are optional and can be omitted without consequence. This can be done by either deleting the line or commenting it out with `#`, as in the following example:
+Many variables are mandatory and failing to set them will break parts of the HTML. Some variables are optional and can be omitted without consequence. This can be done by either deleting the line or commenting it out with `#`, as in the example:
 
 ```yaml
 organization: University of Git
@@ -86,7 +86,7 @@ See the icon packs' documentation for more detailed usage instructions.
 
 ### Accent color
 
-By default, the accent color is set to a blue shade with hex code 0047AB. To change this to a color of your choosing, you need to follow two steps. First, open `assets/style.css` and look for the following chunks:
+By default, the accent color is set to a blue shade with hex code 0047AB. To change this to a color of your choosing, you need to follow two steps. First, open `assets/style.css` and look for the lines of code:
 
 ```css
 a:link, a:visited, #icon:hover, #icon:active {
@@ -96,22 +96,26 @@ a:link, a:visited, #icon:hover, #icon:active {
 ```
 
 ```css
-#titlebar:hover, #navbar:hover {
+#titlebar:hover {
   border-bottom: .4em solid #0047ab;
+  text-decoration: none;
+}
+
+#navbar:hover {
+  border-bottom: .55em solid #0047ab;
   text-decoration: none;
 }
 ```
 
 ```css
 #titlebar:hover, #navbar:hover {
-  padding: 0 .25em;
   border-bottom: 0;
   color: #f5f5f5;
   background-color: #0047ab;
 }
 ```
 
-You should change the hex `0047ab` in these chunks to the one corresponding to your chosen color. You can use [an online tool](https://colorpicker.me) to convert colors into hex codes. You can also write the name of any [HTML color](https://www.htmlcsscolor.com/html-color-names) in place of the hex code, as in `color: firebrick;`.
+You should change the hex `0047ab` in these settings to the one corresponding to your chosen color. You can use [an online tool](https://colorpicker.me) to convert colors into hex codes. You can also write the name of any [HTML color](https://www.htmlcsscolor.com/html-color-names) in place of the hex code, as in `color: firebrick;`.
 
 The second step is minifying the CSS. You can do this easily with [an online tool](https://cssminifier.com): just copy the full content of `assets/style.css` into the input field and paste the content of the output field into `assets/style.min.css`. Do not skip this step or your changes to the CSS will be ignored.
 
@@ -123,7 +127,7 @@ The theme ships with a favicon consisting of the letters CV in lowercase Alegrey
 
 ### Adding a page
 
-One extra page (beyond the home) can be added to your site with minimal effort. For example, if you are an academic, you might want to add a page about your research interests. In order to do this, you should first create a new text file called `research.md` and give it the following front matter:
+One extra page (beyond the home) can be added to your site with minimal effort. For example, if you are an academic, you might want to add a page about your research interests. In order to do this, you should first create a new text file called `research.md` and give it the front matter:
 
 ```yml
 ---
@@ -139,11 +143,11 @@ navtext:      Research
 navlink:      research.md
 ```
 
-Done! Your new page will now appear in the navigation bar. Like the home, you can write it in [Markdown](https://www.markdownguide.org/basic-syntax) and HTML.
+Done! Your new page will now appear in the navigation menu. Like the home, you can write it in [Markdown](https://www.markdownguide.org/basic-syntax) and HTML.
 
 ### Adding one more page
 
-Perhaps you want to add two extra pages instead of one. For example, if you are an academic, you might want to have two additional pages for your research and teaching interests. In the case of a second extra page, the procedure is slightly more involved as it requires deeper edits.
+Perhaps you want to add two extra pages instead of one. For example, you might want to have two additional pages for your research and teaching interests. In the case of a second extra page, the procedure is slightly more involved as it requires editing the header.
 
 First, create a new text file called `teaching.md` and specify default layout in the front matter, as previously did for `research.md`. Then, open `_config.yml` and, right below the lines specifying `navtext` and `navlink`, add:
 
@@ -152,35 +156,44 @@ navtext2:     Teaching
 navlink2:     teaching.md
 ```
 
-Next, open the file `_includes/header.html` and look for the following code chunk:
+Next, open the file `_includes/header.html` and look for the code:
 
 ```html
 {% if site.navtext %}
 {% if site.navlink %}
-<div class="right column">
+<div class="right column menu">
   <a href="{{ site.navlink }}" id="navbar">{{ site.navtext }}</a>
 </div>
 {% else %}
-<div class="right column">
+<div class="right column menu">
   {{ site.navtext }}
 </div>
 {% endif %}
 {% endif %}
 ```
 
-This governs the behavior of `navtext` and `navlink`. You need to replicate it for your two new variables. Add the following code immediately below:
+Change it to:
 
 ```html
-{% if site.navtext2 and site.navlink2 %}
-<div class="right column">
-  <a href="{{ site.navlink2 }}" id="navbar">{{ site.navtext2 }}</a>
+{% if site.navtext %}
+{% if site.navlink %}
+<div class="right column menu">
+  <a href="{{ site.navlink }}" id="navbar">{{ site.navtext }}</a>
+  {% if site.navlink2 %}
+  <a href="{{ site.navlink2 }}" id="navbar" style="margin-left: .25em;">{{ site.navtext2 }}</a>
+  {% endif %}
 </div>
+{% else %}
+<div class="right column menu">
+  {{ site.navtext }}
+</div>
+{% endif %}
 {% endif %}
 ```
 
-Now the navigation bar will display both extra pages, but only if the values of `navtext2` and `navlink2` are set in the configuration file. The use of [Liquid control flow](https://shopify.github.io/liquid/tags/control-flow) ensures that, if you change your mind later and wish to remove the second extra page, you can delete or comment out these variables in `_config.yml` without further changing `_includes/header.html`.
+Now the navigation menu will display both extra pages, but only if the values of `navtext2` and `navlink2` are set in the configuration file. The use of [Liquid control flow](https://shopify.github.io/liquid/tags/control-flow) ensures that, if you change your mind later and wish to remove the second extra page, you can delete or comment out these variables in `_config.yml` without further changing `_includes/header.html`.
 
-You could, in principle, repeat this procedure to add as many pages as you want, but you are likely to run out of space in the navigation bar. The theme is intended for a simple website that focuses on your CV.
+You could, in principle, repeat this procedure to add as many pages as you want, but you are likely to run out of space in the navigation menu. The theme is intended for a simple website that focuses on your CV.
 
 ### Adding footer icons
 
@@ -192,7 +205,7 @@ You can easily add other profiles. For example, you might want to have a link to
 twitter:      username
 ```
 
-Suppose you want to add the Twitter icon right before the GitHub icon in the footer. Open `_includes/footer.html` and look for the following code chunk:
+Suppose you want to add the Twitter icon right before the GitHub icon in the footer. Open `_includes/footer.html` and look for the lines:
 
 ```html
 {% if site.github %}
@@ -200,7 +213,7 @@ Suppose you want to add the Twitter icon right before the GitHub icon in the foo
 {% endif %}
 ```
 
-Right above, insert the following:
+Right before, insert the following:
 
 ```html
 {% if site.twitter %}
