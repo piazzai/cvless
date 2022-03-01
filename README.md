@@ -33,7 +33,7 @@ See [my personal website](https://piazzai.github.io) to get a better sense of wh
 
 Most of the site's configuration happens in `_config.yml`. The website's HTML uses variables set within this file, so that changing things here will affect the site's appearance and behavior.
 
-Many variables are mandatory and failing to set them will break parts of the HTML. Some variables are optional and can be omitted without consequence. This can be done by either deleting the line or commenting it out with `#`, as in the example:
+Many variables are mandatory and failing to set them will break parts of the HTML. Some variables are optional and can be omitted without consequence. This can be done by either deleting the line or commenting it out with `#`, as in the following example:
 
 ```yaml
 organization: University of Git
