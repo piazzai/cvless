@@ -13,7 +13,7 @@ office:       Foobar Hall 1.23
 phone:        +1 234 567 890
 
 # navigation
-navtext:      readme
+navtext:      README
 navlink:      https://github.com/piazzai/cvless/blob/master/README.md
 
 # cv pdf
