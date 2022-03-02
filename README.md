@@ -178,6 +178,7 @@ Change it to:
 <div class="right column menu">
   <a href="{{ site.navlink }}" id="navbar">{{ site.navtext }}</a>
   {% if site.navlink2 %}
+  &nbsp;·
   <a href="{{ site.navlink2 }}" id="navbar" style="margin-left: .25em;">{{ site.navtext2 }}</a>
   {% endif %}
 </div>
