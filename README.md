@@ -1,12 +1,12 @@
-# cvless
+# CVLess v1.0.0
 
-Cvless is a minimalist theme for static websites built with Jekyll, loosely based on the [Academic](https://github.com/gaalcaras/academic) theme developed by Gabriel Alcaras. The theme strives for simplicity and readability by following best practices of web design, including the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and [responsive layout](https://responsivedesign.is). Its typography is based on the Alegreya typeface, one of the 53 Fonts of the Decade selected by the Association Typographique Internationale (2011).
+CVLess is a minimalist theme for static websites built with Jekyll, loosely based on the [Academic](https://github.com/gaalcaras/academic) theme developed by Gabriel Alcaras. The theme strives for simplicity and readability by following best practices of web design, including the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and [responsive layout](https://responsivedesign.is). Its typography is based on the Alegreya typeface, one of the 53 Fonts of the Decade selected by the Association Typographique Internationale (2011).
 
-Placing a CV with picture directly on the homepage, cvless aims to discourage wordy introductions and highlight professional achievements. If you print the homepage, the layout automatically changes to give the CV a more traditional appearance. This means you no longer have to maintain a separate CV for offline distribution.
+Placing a CV with picture directly on the homepage, CVLess aims to discourage wordy introductions and highlight professional achievements. If you print the homepage, the layout automatically changes to give the CV a more traditional appearance. This means you no longer have to maintain a separate CV for offline distribution.
 
 See [my personal website](https://piazzai.github.io) to get a better sense of what the theme looks like.
 
-![](https://github.com/piazzai/cvless/blob/master/demo.jpg)
+![](https://github.com/piazzai/cvless/blob/master/assets/demo.jpg)
 
 ## Installation
 
@@ -38,7 +38,7 @@ Below is a list of all the variables and their descriptions.
 | `office`<br />`phone`                           | Your office and phone numbers (optional), which appear in your contact details.                                                                                                                                                                                               |
 | `navtext`                                       | A short text that links to an external or internal web page. If included, this appears at the right end of the website's header. If a link to another page is not needed, `navtext` can be used as a short tagline that describes your job or interests, or omitted entirely. |
 | `navlink`                                       | The (optional) URL to which `navtext` should redirect in case you wish to use it as a link. If this is omitted but `navtext` is not, `navtext` is rendered as plain text.                                                                                                     |
-| `cv`                                            | Optional path to a PDF version of your cv. If included, the button in the footer changes from "Print CV" to "Download CV" and features a download icon.                                                                                                                       |
+| `cv`                                            | Optional path to a PDF version of your CV. If included, the button in the footer changes from "Print CV" to "Download CV" and features a download icon.                                                                                                                       |
 | `email`                                         | Your email address, which appears in your contact details and is linked by an envelope icon in the website's footer.                                                                                                                                                          |
 | `scholar`                                       | Optional URL of your profile on [Google Scholar](https://scholar.google.com). If included, this is linked by a Google Scholar icon in the website's footer.                                                                                                                   |
 | `orcid`                                         | Optional URL of your profile on [ORCID](https://orcid.org). If included, this is linked by an ORCID icon in the website's footer.                                                                                                                                             |
@@ -211,4 +211,4 @@ Take a look at the [Font Awesome icon pack](https://fontawesome.com/icons?d=gall
 
 ## Bugs
 
-If you encounter any problem while using this theme, please [create an issue](https://github.com/piazzai/cvless/issues) on GitHub.
+If you find any problem using this theme, please [create an issue](https://github.com/piazzai/cvless/issues).
