@@ -8,21 +8,6 @@ See [my personal website](https://piazzai.github.io) to get a better sense of wh
 
 ![](https://github.com/piazzai/cvless/blob/master/demo.jpg)
 
-### Table of contents
-
--   [Installation](#installation)
--   [Configuration](#configuration)
--   [Usage](#usage)
--   [Customization](#customization)
-    -   [Accent color](#accent-color)
-    -   [Favicon](#favicon)
--   [Extensions](#extensions)
-    -   [Adding a page](#adding-a-page)
-    -   [Adding one more page](#adding-one-more-page)
-    -   [Adding footer icons](#adding-footer-icons)
-
-* * *
-
 ## Installation
 
 1.  Clone this repository.
@@ -223,3 +208,7 @@ Right after, insert the following:
 Done! Now the footer will display the Twitter icon. Like before, [Liquid code](https://shopify.github.io/liquid) ensures that if you later change your mind later you can simply delete or comment out the Twitter variable in `_config.yml` without further hassle.
 
 Take a look at the [Font Awesome icon pack](https://fontawesome.com/icons?d=gallery) for an overview of all the icons you can use. If you are an academic, chances are you will not find some of the icons you need, but you could find them in the [Academicons pack](http://jpswalsh.github.io/academicons). If they are not there either, or if you are looking for icons unrelated to academia, please consider making a request for new icons to be added to [Nonacademicons](https://github.com/piazzai/nonacademicons).
+
+## Bugs
+
+If you encounter any problem while using this theme, please [create an issue](https://github.com/piazzai/cvless/issues) on GitHub.
