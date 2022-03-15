@@ -211,4 +211,4 @@ Take a look at the [Font Awesome icon pack](https://fontawesome.com/icons?d=gall
 
 ## Bugs
 
-If you find any problem using this theme, please [create an issue](https://github.com/piazzai/cvless/issues).
+If you find any problem using this theme, please [open an issue](https://github.com/piazzai/cvless/issues).
