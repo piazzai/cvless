@@ -4,7 +4,7 @@ Cvless is a minimalist theme for static websites built with Jekyll, loosely base
 
 Placing a CV with picture directly on the homepage, cvless aims to discourage wordy introductions and highlight professional achievements. If you print the homepage, the layout automatically changes to give the CV a more traditional appearance. This means you no longer have to maintain a separate CV for offline distribution.
 
-See [my personal website](https://piazzai.github.io) to get a better sense of what the theme looks like.
+See the [demo](https://cvless.netlify.app) to get a better sense of what the theme looks like.
 
 ![](https://github.com/piazzai/cvless/blob/master/assets/demo.jpg)
 
