@@ -15,12 +15,12 @@ plugins:
 
 # Optimize Jekyll
 exclude:
-  - .editorconfig
   - .git
   - .jekyll-cache
+  - .sass-cache
   - Gemfile
   - Gemfile.lock
-  - LICENSE.md
+  - LICENSE
   - README.md
 
 sass:
