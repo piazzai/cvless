@@ -26,6 +26,7 @@ exclude:
 sass:
   sass_dir: _sass
   style: :compressed
+  sourcemap: never
 
 feed:
   path: atom.xml
