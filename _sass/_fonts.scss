@@ -1,4 +1,20 @@
 @font-face {
+  font-family: "JuliaMono";
+  src: url("../woff2/JuliaMono-RegularLatin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "JuliaMono";
+  src: url("../woff2/JuliaMono-BoldLatin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
   font-family: "Piazzolla";
   src: url("../woff2/Piazzolla-Thin.woff2");
   font-style: normal;
