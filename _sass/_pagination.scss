@@ -6,7 +6,6 @@
 .pagination {
   display: flex;
   margin: 0 -1.5rem var(--spacer);
-  color: var(--button-color);
   text-align: center;
 }
 
@@ -17,7 +16,8 @@
   text-decoration: none;
   border: solid var(--border-color);
   border-width: 1px 0;
-  color: var(--body-color);
+  color: var(--button-color);
+  transition: all 0.1s ease-in-out;
 
   &:first-child {
     margin-bottom: -1px;
@@ -27,7 +27,7 @@
 // Only provide a hover state for linked pagination items
 a.pagination-item:hover {
   background-color: var(--border-color);
-  color: var(--body-bg);
+  color: var(--body-color);
 }
 
 @media (min-width: 30em) {
