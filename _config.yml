@@ -34,7 +34,11 @@ sass:
   sourcemap: never
 feed:
   path:      atom.xml
+autopages:
+  enabled: false
 pagination:
   enabled:   true
   per_page:  1
-  title:     ":title - page :num"
+  sort_reverse: true
+  permalink: /blog/:num/
+  title:     ":title &middot; :num"
