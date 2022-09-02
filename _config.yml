@@ -1,16 +1,17 @@
 # site settings
-title:       cvless
-tagline:     Jekyll theme for a beautiful online CV
-url:         https://cvless.netlify.app
-baseurl:     ""
-permalink:   pretty
-version:     2.0.0
+title:          cvless
+tagline:        Jekyll theme for a beautiful online CV
+url:            https://cvless.netlify.app
+baseurl:        ""
+permalink:      pretty
+repo:           https://github.com/username/username.github.io
+version:        2.0.0
 
 # user settings
 author:
-  name:      Place Holder
-  url:       https://username.github.io
-  email:     username@domain.com
+  name:         Place Holder
+  url:          https://username.github.io
+  email:        username@domain.com
 
 # build settings
 plugins:
@@ -29,16 +30,16 @@ exclude:
   - README.md
   - vendor
 sass:
-  sass_dir:  _sass
-  style:     :compressed
-  sourcemap: never
+  sass_dir:     _sass
+  style:        :compressed
+  sourcemap:    never
 feed:
-  path:      atom.xml
+  path:         atom.xml
 autopages:
-  enabled: false
+  enabled:      false
 pagination:
-  enabled:   true
-  per_page:  1
+  enabled:      true
+  per_page:     1
   sort_reverse: true
-  permalink: /blog/:num/
-  title:     ":title &middot; :num"
+  permalink:    /blog/:num/
+  title:        ":title &middot; :num"
