@@ -79,6 +79,10 @@ blockquote {
   }
 }
 
+small {
+  font-size: var(--body-font-size-small);
+}
+
 figure {
   margin: 0;
 }
