@@ -9,13 +9,23 @@
     <div class="row justify-content-center">
       <div class="col-12 col-md-10 col-lg-8">
         <header>
-          {% include header.html %}
+          <span class="header-title">
+            <a href="{{ site.url }}" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </span>
         </header>
         <main>
           {{ content }}
         </main>
         <footer>
-          {% include footer.html %}
+          <small>
+            <ul>
+              <li> &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. All rights reserved.</li>
+              <li>Engine</li>
+              <li>Theme</li>
+              <li>Source</li>
+            </ul>
+          </small>
         </footer>
       </div>
     </div>
