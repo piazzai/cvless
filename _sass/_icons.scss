@@ -1,0 +1,21 @@
+#icon-link,
+#icon-plain {
+  path {
+    position: relative;
+    transform: translate(0, 10%);
+    stroke: var(--body-color);
+    stroke-width: 1.3;
+  }
+}
+
+#icon-link {
+  path {
+    stroke: var(--link-color);
+  }
+
+  &:hover {
+    path {
+      stroke: var(--link-hover-color);
+    }
+  }
+}
