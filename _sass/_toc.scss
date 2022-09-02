@@ -11,6 +11,6 @@
     margin-left: calc(var(--spacer-3) * -1);
     content: "Contents";
     font-size: 85%;
-    font-weight: 500;
+    font-weight: var(--body-font-weight-bold);
   }
 }

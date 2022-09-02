@@ -11,6 +11,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--body-font-size);
   font-weight: var(--body-font-weight);
+  font-variant-numeric: oldstyle-nums proportional-nums;
   line-height: var(--body-line-height);
   color: var(--body-color);
   background-color: var(--body-bg);
@@ -21,6 +22,7 @@ body {
 // No `:visited` state is required by default (browsers will use `a`)
 a {
   color: var(--link-color);
+  transition: all 0.1s ease-in-out;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,

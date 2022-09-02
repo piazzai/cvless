@@ -4,7 +4,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 600;
+  font-weight: var(--body-font-weight-bold);
   line-height: 1.25;
   color: var(--heading-color);
 }
@@ -39,7 +39,7 @@ ul, ol, dl {
 }
 
 dt {
-  font-weight: bold;
+  font-weight: var(--body-font-weight-bold);
 }
 
 dd {
@@ -55,8 +55,6 @@ hr {
 
 abbr {
   font-size: 85%;
-  font-weight: bold;
-  color: var(--gray-600);
   text-transform: uppercase;
 
   &[title] {
@@ -96,7 +94,7 @@ a[href^="#fn:"],
 a[href^="#fnref:"] {
   display: inline-block;
   margin-left: .1rem;
-  font-weight: bold;
+  font-weight: var(--body-font-weight-bold);
 }
 
 // List of footnotes
@@ -111,5 +109,5 @@ a[href^="#fnref:"] {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: var(--body-font-weight-light);
 }
