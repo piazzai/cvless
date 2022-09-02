@@ -2,30 +2,36 @@
 //
 // Styles for managing the structural hierarchy of the site.
 
-// .container {
-//   max-width: 45rem;
-//   padding-left: var(--spacer-2);
-//   padding-right: var(--spacer-2);
-//   margin-left:  auto;
-//   margin-right: auto;
-// }
-
-.masthead {
-  padding-top: var(--spacer);
-  padding-bottom: var(--spacer);
+header {
+  margin-top: var(--spacer-2);
   margin-bottom: var(--spacer-3);
 }
 
-.masthead-title {
+.header-title {
   margin-bottom: 0;
+  font-weight: var(--body-font-weight-bold);
 
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+  small {
+    font-weight: var(--body-font-weight);
   }
 }
 
 footer {
   margin-top: var(--spacer-3);
   margin-bottom: var(--spacer-3);
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+      margin-right: 0.5rem;
+    }
+  }
 }
