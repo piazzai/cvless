@@ -9,6 +9,7 @@ pre {
 }
 
 code {
+  color: var(--code-color);
   font-size: 85%;
 }
 
@@ -24,6 +25,7 @@ pre {
   margin-bottom: var(--spacer);
   background-color: var(--code-bg);
   border-radius: var(--border-radius);
+  color: var(--body-bg);
 
   pre {
     margin-bottom: 0;

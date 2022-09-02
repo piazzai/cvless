@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: var(--body-font);
   font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
   color: var(--body-color);
   background-color: var(--body-bg);
@@ -65,6 +66,7 @@ thead th {
 
 mark {
   padding: .15rem;
-  background-color: var(--yellow-100);
+  background-color: var(--mark-bg);
   border-radius: .125rem;
+  color: var(--mark-color);
 }

@@ -31,6 +31,7 @@
   --body-line-height: 1.5;
   --body-color: var(--gray-700);
   --body-bg: #fff;
+  --body-font-weight: 400;
 
   --link-color: var(--blue);
   --link-hover-color: #1c7ed6;
@@ -38,11 +39,21 @@
   --heading-color: var(--gray-900);
 
   --border-color: var(--gray-300);
+  --button-color: var(--oc-gray-5);
+
   --border-radius: .25rem;
 
   --code-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --code-color: var(--grape);
   --code-bg: var(--gray-000);
+
+  --quote-color: var(--oc-gray-7);
+
+  --message-color: var(--oc-gray-9);
+  --message-bg: var(--oc-yellow-3);
+
+  --mark-color: var(--oc-gray-9);
+  --mark-bg: var(--oc-yellow-3);
 
   --spacer: 1rem;
   --spacer-2: calc(var(--spacer) * 1.5);
