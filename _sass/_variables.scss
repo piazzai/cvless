@@ -1,8 +1,4 @@
 :root {
-  --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --body-font-size: 16px;
-  --body-line-height: 1.5;
-  --body-font-weight: 400;
   --body-color: var(--oc-gray-9);
   --body-bg: var(--oc-gray-1);
 
@@ -17,6 +13,10 @@
   --border-radius: .25rem;
 
   --code-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --body-font: "Piazzolla", serif;
+  --body-font-size: 24px;
+  --body-line-height: 1.36;
+  --body-font-weight: 300;
   --code-color: inherit;
   --code-bg: var(--oc-gray-7);
 
