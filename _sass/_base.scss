@@ -11,7 +11,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--body-font-size);
   font-weight: var(--body-font-weight);
-  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-variant-numeric: var(--body-num-variant);
   line-height: var(--body-line-height);
   color: var(--body-color);
   background-color: var(--body-bg);
