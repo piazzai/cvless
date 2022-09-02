@@ -8,9 +8,9 @@ version:     2.0.0
 
 # user settings
 author:
-  name:      Michele Piazzai
-  url:       https://piazzai.github.io
-  email:     michele.piazzai@uc3m.es
+  name:      Place Holder
+  url:       https://username.github.io
+  email:     username@domain.com
 
 # build settings
 plugins:
