@@ -67,7 +67,7 @@ li::marker {
 }
 
 #markdown-toc {
-  padding: var(--spacer) calc(var(--spacer) * 2);
+  padding: 0 calc(var(--spacer) * 2);
   margin-bottom: var(--spacer);
 
   &::before {
