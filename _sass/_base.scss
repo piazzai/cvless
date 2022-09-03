@@ -90,4 +90,24 @@ img {
   margin-bottom: var(--spacer);
   border-radius: var(--border-radius);
 }
+
+table {
+  margin-bottom: calc(var(--spacer) * 2);
+  width: 100%;
+  border: 0 solid var(--border-color);
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: calc(var(--spacer) / 4) calc(var(--spacer) / 2);
+}
+
+th {
+  text-align: left;
+}
+
+thead th {
+  border-bottom-width: var(--border-width);
+  border-bottom-color: var(--body-color);
 }
