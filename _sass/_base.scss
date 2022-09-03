@@ -41,6 +41,24 @@ hr {
   border-top: calc(var(--spacer) / 5) solid var(--border-color);
 }
 
+li::marker {
+  font-family: var(--body-font-family);
 }
 
+.site-title {
+  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
+}
+
+.cv-page {
+  ul {
+    padding: 0;
+
+    li::marker {
+      content: none;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
 }
