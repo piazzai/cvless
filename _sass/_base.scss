@@ -41,7 +41,7 @@ header a {
 
 hr {
   margin: calc(var(--spacer) * 2) 0;
-  border-top: var(--border-width) solid var(--border-color);
+  border-top: var(--border-width) solid var(--body-color);
 }
 
 li::marker {
