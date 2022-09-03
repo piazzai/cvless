@@ -1,7 +1,7 @@
 #iconoir {
   path {
     stroke: var(--body-color);
-    stroke-width: 1.5;
+    stroke-width: var(--svg-stroke-width);
   }
 }
 

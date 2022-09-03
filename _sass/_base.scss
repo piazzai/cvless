@@ -21,7 +21,7 @@ a {
 header {
   margin-top: var(--spacer-2);
   margin-bottom: var(--spacer-3);
-  font-weight: calc(var(--body-font-weight) + 100);
+  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
 
   a {
     color: inherit;
@@ -30,7 +30,7 @@ header {
 
 footer {
   margin-top: var(--spacer-3);
-  margin-bottom: var(--spacer-2);
+  margin-bottom: var(--spacer-3);
 
   a {
     text-decoration: none;
@@ -39,16 +39,15 @@ footer {
 }
 
 small {
-  font-weight: calc(var(--body-font-weight) - 100);
+  font-weight: calc(var(--body-font-weight) - var(--body-font-weight-increment));
 }
 
 strong {
-  font-weight: calc(var(--body-font-weight) + 200);
+  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment) * 2);
 }
 
 mark {
-  padding: 0 0.25rem 0.25rem;
+  border-radius: var(--border-radius);
   background-color: var(--highlight-bg);
   color: inherit;
-  border-radius: var(--border-radius);
 }
