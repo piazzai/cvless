@@ -1,43 +1,26 @@
 :root {
-  --body-font: "Piazzolla", serif;
+  // body
+  --body-font-family: "Piazzolla", serif;
+  --body-font-family-sc: "Piazzolla SC", serif;
   --body-font-size: 22px;
-  --body-font-size-small: 18px;
-  --body-line-height: 1.45;
-  --body-font-weight: 300;
-  --body-font-weight-bold: 500;
-  --body-font-weight-light: 100;
+  --body-font-size-increment: 2px;
+  --body-font-weight: 400;
+  --body-font-weight-increment: 200;
   --body-num-variant: oldstyle-nums proportional-nums;
-  --body-bg: var(--oc-gray-1);
-  --body-color: var(--oc-gray-9);
-  --heading-color: var(--oc-gray-7);
-  --link-color: var(--oc-blue-7);
+  --body-line-height: 32px;
+  --body-background-color: var(--oc-gray-1);
+  --body-color: var(--oc-gray-8);
+  // code
+  --mono-font: "JuliaMono", monospace;
+  // colors
+  --link-color: var(--oc-blue-8);
   --link-hover-color: var(--oc-blue-9);
-  --quote-color: var(--oc-gray-7);
-  --highlight-bg: var(--oc-yellow-2);
-  --highlight-color: var(--oc-gray-9);
-  --button-color: var(--oc-gray-7);
+  --highlight-background-color: var(--oc-yellow-2);
+  --heading-color: var(--oc-gray-8);
+  --quote-color: var(--oc-gray-6);
   --border-color: var(--oc-gray-5);
-  --border-radius: .5rem;
-  --code-font: "JuliaMono", monospace;
-  --code-color: var(--oc-gray-7);
-  --code-bg: var(--oc-gray-3);
+  // shaping
+  --svg-stroke-width: 1.5;
+  --border-radius: 0.5rem;
   --spacer: 1rem;
-  --spacer-2: calc(var(--spacer) * 1.5);
-  --spacer-3: calc(var(--spacer) * 3);
 }
-
-// @media (prefers-color-scheme: dark) {
-//   :root {
-//     --body-color: var(--gray-300);
-//     --body-bg: var(--gray-800);
-//
-//     --heading-color: #fff;
-//
-//     --link-color: var(--blue-300);
-//     --link-hover-color: var(--blue-400);
-//
-//     --border-color: rgba(255,255,255,.15);
-//
-//     --code-bg: var(--gray-900);
-//   }
-// }
