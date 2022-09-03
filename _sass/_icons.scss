@@ -10,9 +10,10 @@ a .iconoir {
     stroke: var(--link-color);
   }
 
+  &:focus,
   &:hover {
     path {
-      stroke: var(--link-hover-color);
+      stroke: var(--link-color);
     }
   }
 }

@@ -33,6 +33,7 @@ footer a,
 header a {
   color: inherit;
 
+  &:focus,
   &:hover {
     color: inherit;
   }

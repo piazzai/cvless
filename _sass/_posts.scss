@@ -5,6 +5,7 @@
   a {
     color: inherit;
 
+    &:focus,
     &:hover {
       border-bottom: var(--border-width) dotted var(--border-color);
     }

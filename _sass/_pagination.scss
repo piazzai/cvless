@@ -28,6 +28,7 @@ a.pagination-item {
     }
   }
 
+  &:focus,
   &:hover {
     background-color: var(--border-color);
     border-bottom: var(--border-width) solid var(--border-color);
