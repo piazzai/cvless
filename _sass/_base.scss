@@ -54,7 +54,7 @@ li::marker {
 
 .cv-page {
   ul {
-    padding: 0;
+    padding-left: var(--spacer);
 
     li::marker {
       content: none;
