@@ -44,24 +44,8 @@ hr {
   border-top: var(--border-width) solid var(--body-color);
 }
 
-li::marker {
-  font-family: var(--body-font-family);
-}
-
-.cv-page {
-  dl,
-  ol,
-  ul {
-    padding-left: var(--spacer);
-  }
-
-  ul li::marker {
-      content: none;
-    }
-
-  p {
+.footnotes p {
     margin: 0;
-  }
 }
 
 img {
