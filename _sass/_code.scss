@@ -4,7 +4,8 @@ pre {
 }
 
 code {
-  color: var(--body-color);
+  padding: 0 calc(var(--spacer) / 4);
+  color: var(--code-color);
 }
 
 pre {
