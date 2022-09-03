@@ -83,3 +83,8 @@ li::marker {
     content: "• ";
   }
 }
+
+img {
+  max-width: calc(100% - var(--spacer));
+  margin: calc(var(--spacer) / 2);
+}
