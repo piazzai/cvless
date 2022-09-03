@@ -44,7 +44,7 @@ mark {
 blockquote {
   padding: calc(var(--spacer) / 2) var(--spacer);
   margin: var(--spacer) 0;
-  border-left: calc(var(--spacer) / 5) solid var(--border-color);
+  border-left: var(--border-width) solid var(--border-color);
   color: var(--quote-color);
 
   p:last-child {

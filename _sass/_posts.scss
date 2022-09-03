@@ -6,7 +6,7 @@
     color: inherit;
 
     &:hover {
-      border-bottom: calc(var(--spacer) / 5) dotted var(--border-color);
+      border-bottom: var(--border-width) dotted var(--border-color);
     }
   }
 }
