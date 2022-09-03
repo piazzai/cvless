@@ -49,13 +49,15 @@ li::marker {
 }
 
 .cv-page {
+  dl,
+  ol,
   ul {
     padding-left: var(--spacer);
+  }
 
-    li::marker {
+  ul li::marker {
       content: none;
     }
-  }
 
   p {
     margin: 0;
