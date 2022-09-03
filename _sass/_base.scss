@@ -21,18 +21,20 @@ a {
 header {
   margin-top: calc(var(--spacer) * 2);
   margin-bottom: calc(var(--spacer) * 3);
-
-  a {
-    color: inherit;
-  }
 }
 
 footer {
   margin-top: calc(var(--spacer) * 3);
   margin-bottom: calc(var(--spacer) * 3);
+}
 
-  a {
+footer a,
+header a {
+  color: inherit;
+
+  &:hover {
     color: inherit;
+    border-bottom: calc(var(--spacer) / 5) dotted var(--border-color);
   }
 }
 
