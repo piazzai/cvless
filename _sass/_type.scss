@@ -1,36 +1,25 @@
-// Typography
-//
-// Headings, body text, lists, and other misc typographic elements.
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: var(--body-font-weight-bold);
-  line-height: 1.25;
-  color: var(--heading-color);
+h1,
+h2,
+h3 {
+  margin-bottom: calc(var(--spacer) / 2);
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: calc(var(--body-font-size) + var(--body-font-size-increment) * 3);
+  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment) * 2);
 }
 
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  margin-top: calc(var(--spacer) * 2);
+  font-size: calc(var(--body-font-size) + var(--body-font-size-increment) * 2);
+  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
 }
 
 h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: var(--spacer);
+  text-transform: lowercase;
+  font-family: var(--body-font-family-sc);
+  font-size: calc(var(--body-font-size) + var(--body-font-size-increment));
 }
 
 dt {
