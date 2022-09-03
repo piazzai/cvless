@@ -14,7 +14,8 @@ a {
 
   &:focus,
   &:hover {
-    color: var(--link-hover-color);
+    border-bottom: var(--border-width) dotted var(--border-color);
+    color: var(--link-color);
   }
 }
 
