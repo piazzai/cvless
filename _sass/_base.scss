@@ -48,10 +48,6 @@ li::marker {
   font-family: var(--body-font-family);
 }
 
-.site-title {
-  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
-}
-
 .cv-page {
   ul {
     padding-left: var(--spacer);

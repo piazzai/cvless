@@ -52,6 +52,10 @@ blockquote {
   }
 }
 
+.site-title {
+  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
+}
+
 .message {
   padding: calc(var(--spacer) / 4) calc(var(--spacer) / 2) calc(var(--spacer) / 2) calc(var(--spacer) / 2);
   margin-bottom: var(--spacer);
