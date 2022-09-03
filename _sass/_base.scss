@@ -85,6 +85,9 @@ li::marker {
 }
 
 img {
-  max-width: calc(100% - var(--spacer));
-  margin: calc(var(--spacer) / 2);
+  display: block;
+  max-width: 100%;
+  margin-bottom: var(--spacer);
+  border-radius: var(--border-radius);
+}
 }
