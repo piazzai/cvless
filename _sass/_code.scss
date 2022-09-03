@@ -13,12 +13,13 @@ pre {
 }
 
 .highlight {
-  padding: var(--spacer);
+  padding: 0 var(--spacer);
   margin-bottom: var(--spacer);
   background-color: var(--body-background-color);
   border-radius: var(--border-radius);
 
   pre {
+    padding: 0;
     margin-bottom: 0;
   }
 
