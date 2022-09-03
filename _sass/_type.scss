@@ -52,6 +52,14 @@ blockquote {
   }
 }
 
+.message {
+  padding: calc(var(--spacer) / 4) calc(var(--spacer) / 2) calc(var(--spacer) / 2) calc(var(--spacer) / 2);
+  margin-bottom: var(--spacer);
+  border-radius: var(--border-radius);
+  background-color: var(--highlight-background-color);
+  color: inherit;
+}
+
 a[href^="#fn:"],
 a[href^="#fnref:"] {
   margin-left: calc(var(--body-font-size) / 12);
