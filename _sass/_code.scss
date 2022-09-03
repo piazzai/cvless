@@ -27,3 +27,18 @@ pre {
     padding: 0;
   }
 }
+
+.rouge-table {
+  margin-bottom: 0;
+
+  .gutter {
+    vertical-align: top;
+    user-select: none;
+    opacity: 25%;
+  }
+}
+
+.gist td,
+.rouge-table td {
+  border: none;
+}
