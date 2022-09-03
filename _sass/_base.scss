@@ -21,7 +21,6 @@ a {
 header {
   margin-top: calc(var(--spacer) * 2);
   margin-bottom: calc(var(--spacer) * 3);
-  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
 
   a {
     color: inherit;
@@ -33,7 +32,6 @@ footer {
   margin-bottom: calc(var(--spacer) * 3);
 
   a {
-    text-decoration: none;
     color: inherit;
   }
 }
