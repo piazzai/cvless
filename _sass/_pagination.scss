@@ -24,12 +24,13 @@ a.pagination-item {
   svg {
     path {
       stroke: var(--body-color);
+      border-color: var(--border-color);
     }
   }
 
   &:hover {
     background-color: var(--border-color);
-    color: var(--body-color);
+    border-bottom: var(--border-width) solid var(--border-color);
 
     svg {
       path {
