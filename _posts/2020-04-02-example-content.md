@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example content
+lead: Another sample post, this time a bit more useful.
 ---
 
 **Howdy!** This is an example blog post that shows several types of HTML content supported in this theme.
