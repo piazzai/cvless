@@ -43,7 +43,7 @@ small {
 }
 
 strong {
-  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment) * 2);
+  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
 }
 
 mark {
