@@ -2,6 +2,7 @@
   // body
   --body-font-family: "Piazzolla", serif;
   --body-font-family-sc: "Piazzolla SC", serif;
+  --body-font-family-mono: "Hack", monospace;
   --body-font-size: 22px;
   --body-font-size-increment: 2px;
   --body-font-weight: 400;
@@ -10,9 +11,6 @@
   --body-line-height: 32px;
   --body-background-color: var(--oc-gray-1);
   --body-color: var(--oc-gray-8);
-  // code
-  --mono-font: "JuliaMono", monospace;
-  // colors
   --border-color: var(--oc-gray-5);
   --quote-color: var(--oc-gray-6);
   --button-color: var(--oc-gray-6);
@@ -20,7 +18,6 @@
   --link-color: var(--oc-blue-8);
   --link-hover-color: var(--oc-blue-9);
   --highlight-background-color: var(--oc-yellow-2);
-  // shaping
   --svg-stroke-width: 1.5;
   --border-width: 0.15rem;
   --border-radius: 0.5rem;
