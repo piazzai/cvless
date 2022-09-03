@@ -69,4 +69,11 @@ a[href^="#fnref:"] {
 .footnotes {
   margin-top: var(--spacer);
   font-size: calc(var(--body-font-size) - var(--body-font-size-increment));
+
+  &::before {
+    display: block;
+    content: "Notes";
+    text-transform: lowercase;
+    font-family: var(--body-font-family-sc);
+  }
 }
