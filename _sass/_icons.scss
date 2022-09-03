@@ -1,11 +1,11 @@
-#iconoir {
+.iconoir {
   path {
     stroke: var(--body-color);
     stroke-width: var(--svg-stroke-width);
   }
 }
 
-a #iconoir {
+a .iconoir {
   path {
     stroke: var(--link-color);
   }
