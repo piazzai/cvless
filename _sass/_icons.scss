@@ -1,14 +1,11 @@
-#icon-link,
-#icon-plain {
+#iconoir {
   path {
-    position: relative;
-    transform: translate(0, 10%);
     stroke: var(--body-color);
-    stroke-width: 1.3;
+    stroke-width: 1.5;
   }
 }
 
-#icon-link {
+a #iconoir {
   path {
     stroke: var(--link-color);
   }
