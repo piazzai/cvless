@@ -13,7 +13,12 @@ a .iconoir {
   &:focus,
   &:hover {
     path {
-      stroke: var(--link-color);
+      stroke: var(--link-hover-color);
     }
   }
+}
+
+.icon-link:focus,
+.icon-link:hover {
+  border: none;
 }

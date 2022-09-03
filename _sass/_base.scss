@@ -14,8 +14,7 @@ a {
 
   &:focus,
   &:hover {
-    border-bottom: var(--border-width) dotted var(--button-color);
-    color: var(--link-color);
+    color: var(--link-hover-color);
   }
 }
 
@@ -35,6 +34,7 @@ header a {
 
   &:focus,
   &:hover {
+    border-bottom: var(--border-width) dotted var(--button-color);
     color: inherit;
   }
 }
