@@ -64,3 +64,21 @@ li::marker {
     margin: 0;
   }
 }
+
+#markdown-toc {
+  padding: var(--spacer) calc(var(--spacer) * 2);
+  margin-bottom: var(--spacer);
+
+  &::before {
+    display: block;
+    margin-bottom: calc(var(--spacer) / 2);
+    content: "Contents";
+    text-transform: lowercase;
+    font-family: var(--body-font-family-sc);
+    font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
+  }
+
+  li::marker {
+    content: "• ";
+  }
+}
