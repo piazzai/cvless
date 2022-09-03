@@ -13,12 +13,13 @@
   // code
   --mono-font: "JuliaMono", monospace;
   // colors
+  --border-color: var(--oc-gray-5);
+  --quote-color: var(--oc-gray-6);
+  --button-color: var(--oc-gray-6);
+  --heading-color: var(--oc-gray-8);
   --link-color: var(--oc-blue-8);
   --link-hover-color: var(--oc-blue-9);
   --highlight-background-color: var(--oc-yellow-2);
-  --heading-color: var(--oc-gray-8);
-  --quote-color: var(--oc-gray-6);
-  --border-color: var(--oc-gray-5);
   // shaping
   --svg-stroke-width: 1.5;
   --border-width: 0.15rem;
