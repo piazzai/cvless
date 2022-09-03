@@ -38,16 +38,8 @@ footer {
   }
 }
 
-small {
-  font-weight: calc(var(--body-font-weight) - var(--body-font-weight-increment));
 }
 
-strong {
-  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
 }
 
-mark {
-  border-radius: var(--border-radius);
-  background-color: var(--highlight-bg);
-  color: inherit;
 }
