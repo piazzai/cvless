@@ -38,6 +38,9 @@ footer {
   }
 }
 
+hr {
+  margin: calc(var(--spacer) * 2) 0;
+  border-top: calc(var(--spacer) / 5) solid var(--border-color);
 }
 
 }
