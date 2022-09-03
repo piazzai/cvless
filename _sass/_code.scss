@@ -15,9 +15,8 @@ pre {
 .highlight {
   padding: var(--spacer);
   margin-bottom: var(--spacer);
-  background-color: var(--code-background-color);
+  background-color: var(--body-background-color);
   border-radius: var(--border-radius);
-  color: var(--body-color);
 
   pre {
     margin-bottom: 0;
