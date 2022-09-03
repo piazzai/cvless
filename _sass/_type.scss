@@ -37,7 +37,7 @@ abbr {
 
 mark {
   border-radius: var(--border-radius);
-  background-color: var(--highlight-background-color);
+  background-color: var(--mark-background-color);
   color: inherit;
 }
 
@@ -56,7 +56,7 @@ blockquote {
   padding: calc(var(--spacer) / 4) calc(var(--spacer) / 2) calc(var(--spacer) / 2) calc(var(--spacer) / 2);
   margin-bottom: var(--spacer);
   border-radius: var(--border-radius);
-  background-color: var(--highlight-background-color);
+  background-color: var(--mark-background-color);
   color: inherit;
 }
 
