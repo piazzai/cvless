@@ -1,10 +1,10 @@
 body {
-  font-family: var(--body-font);
+  font-family: var(--body-font-family);
   font-size: var(--body-font-size);
   font-weight: var(--body-font-weight);
   font-variant-numeric: var(--body-num-variant);
   line-height: var(--body-line-height);
-  background-color: var(--body-bg);
+  background-color: var(--body-background-color);
   color: var(--body-color);
 }
 
