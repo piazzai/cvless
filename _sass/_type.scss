@@ -22,80 +22,43 @@ h3 {
   font-size: calc(var(--body-font-size) + var(--body-font-size-increment));
 }
 
-dt {
-  font-weight: var(--body-font-weight-bold);
+small {
+  font-weight: calc(var(--body-font-weight) - var(--body-font-weight-increment));
 }
 
-dd {
-  margin-bottom: .5rem;
-}
-
-hr {
-  position: relative;
-  margin: var(--spacer-2) 0;
-  border: 0;
-  border-top: 1px solid var(--border-color);
+strong {
+  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
 }
 
 abbr {
-  font-size: 85%;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-family: var(--body-font-family-sc);
+}
 
-  &[title] {
-    cursor: help;
-    border-bottom: 1px dotted var(--border-color);
-  }
+mark {
+  border-radius: var(--border-radius);
+  background-color: var(--highlight-bg);
+  color: inherit;
 }
 
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
+  padding: calc(var(--spacer) / 2) var(--spacer);
+  margin: var(--spacer) 0;
+  border-left: calc(var(--spacer) / 5) solid var(--border-color);
   color: var(--quote-color);
-  border-left: .25rem solid var(--border-color);
 
   p:last-child {
-    margin-bottom: 0;
-  }
-
-  @media (min-width: 30em) {
-    padding-right: 5rem;
-    padding-left: 1.25rem;
+    margin-bottom: calc(var(--spacer) / 2);
   }
 }
 
-small {
-  font-size: var(--body-font-size-small);
-}
-
-figure {
-  margin: 0;
-}
-
-
-// Markdown footnotes
-//
-// See the example content post for an example.
-
-// Footnote number within body text
 a[href^="#fn:"],
-// Back to footnote link
 a[href^="#fnref:"] {
-  display: inline-block;
-  margin-left: .1rem;
-  font-weight: var(--body-font-weight-bold);
+  margin-left: calc(var(--body-font-size) / 12);
+  font-weight: calc(var(--body-font-weight) + var(--body-font-weight-increment));
 }
 
-// List of footnotes
 .footnotes {
-  margin-top: 2rem;
-  font-size: 85%;
-}
-
-// Custom type
-//
-// Extend paragraphs with `.lead` for larger introductory text.
-
-.lead {
-  font-size: 1.25rem;
-  font-weight: var(--body-font-weight-light);
+  margin-top: var(--spacer);
+  font-size: calc(var(--body-font-size) - var(--body-font-size-increment));
 }
