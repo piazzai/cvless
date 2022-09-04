@@ -1,10 +1,12 @@
-<h2>Contact</h2>
-<ul class="contact">
-  <li>{{ site.organization }}</li>
-  <li>{{ site.department }}</li>
-  <li>{{ site.address }}</li>
-  <li>{% include iconoir/pin-alt.svg %}&nbsp;{{ site.office }}</li>
-  <li>{% include iconoir/phone.svg %}&nbsp;{{ site.phone }}</li>
-  <li>{% include iconoir/mail.svg %}&nbsp;{{ site.email }}</li>
-  <li>{% include iconoir/internet.svg %}&nbsp;{{ site.url }}</li>
-</ul>
+<div>
+  <h2>Contact</h2>
+  <ul class="ul-icon">
+    <li>{{ site.organization }}</li>
+    <li>{{ site.department }}</li>
+    <li>{{ site.address }}</li>
+    <li><span class="li-icon">{% include svg/pin-alt.svg %}</span>{{ site.office }}</li>
+    <li><span class="li-icon">{% include svg/phone.svg %}</span>{{ site.phone }}</li>
+    <li><span class="li-icon">{% include svg/mail.svg %}</span>{{ site.email }}</li>
+    <li><span class="li-icon">{% include svg/internet.svg %}</span>{{ site.url }}</li>
+  </ul>
+</div>
