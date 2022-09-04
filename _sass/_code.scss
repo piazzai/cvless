@@ -1,44 +1,22 @@
-code,
-pre {
-  font-family: var(--body-font-family-mono);
+pre,code {
+  font-family: var(--type-mono);
 }
 
 code {
-  color: var(--code-color);
-}
-
-pre {
-  display: block;
-  overflow: auto;
+  color: var(--color-code);
 }
 
 .highlight {
-  padding: 0 var(--spacer);
-  margin-bottom: var(--spacer);
-  border-radius: var(--border-radius);
-  background-color: var(--body-background-color);
+  padding: 0 1em;
+  border-radius: 0.25em;
+  background-color: var(--color-background);
 
   pre {
     padding: 0;
-    margin-bottom: 0;
+    margin: 0;
   }
 
   .highlight {
     padding: 0;
   }
-}
-
-.rouge-table {
-  margin-bottom: 0;
-
-  .gutter {
-    vertical-align: top;
-    user-select: none;
-    opacity: 25%;
-  }
-}
-
-.gist td,
-.rouge-table td {
-  border: none;
 }

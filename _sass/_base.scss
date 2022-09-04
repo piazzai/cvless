@@ -1,87 +1,67 @@
 body {
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size);
-  font-weight: var(--body-font-weight);
-  font-variant-numeric: var(--body-num-variant);
-  line-height: var(--body-line-height);
-  background-color: var(--body-background-color);
-  color: var(--body-color);
+  font-family: var(--type-serif);
+  font-size: var(--type-size);
+  font-weight: var(--type-weight);
+  line-height: var(--type-height);
+  font-variant-numeric: var(--type-numeric);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+svg path {
+  stroke: var(--color-text);
+  stroke-width: 0.075em;
 }
 
 a {
   text-decoration: none;
-  color: var(--link-color);
+  color: var(--color-link);
 
   &:focus,
   &:hover {
-    color: var(--link-hover-color);
+    border-bottom: calc(var(--type-size) / 10) dotted var(--color-link);
+    color: var(--color-link);
   }
 }
 
 header {
-  margin-top: calc(var(--spacer) * 2);
-  margin-bottom: calc(var(--spacer) * 3);
+  margin-top: 1.5em;
+  margin-bottom: 2em;
 }
 
 footer {
-  margin-top: calc(var(--spacer) * 3);
-  margin-bottom: calc(var(--spacer) * 3);
+  margin: 2em 0;
 }
 
-footer a,
-header a {
-  color: inherit;
+small {
+  font-weight: 300;
+}
 
-  &:focus,
-  &:hover {
-    border-bottom: var(--border-width) dotted var(--button-color);
-    color: inherit;
-  }
+abbr {
+  text-transform: lowercase;
+  font-family: var(--type-caps);
+}
+
+blockquote {
+  padding-left: 1em;
+  border-left: 0.1em solid var(--color-border);
+  font-weight: 300;
+}
+
+mark {
+  padding: 0.1em;
+  border-radius: 0.25em;
+  background-color: var(--color-mark);
+  color: var(--color-text);
 }
 
 hr {
-  margin: calc(var(--spacer) * 2) 0;
-  border-top: var(--border-width) solid var(--body-color);
-}
-
-.footnotes {
-  padding-top: var(--spacer);
-
-  p {
-    margin: 0;
-  }
+  border-top: 0.1em solid var(--color-text);
 }
 
 img {
   display: block;
   max-width: 100%;
-  margin-bottom: var(--spacer);
-  border-radius: var(--border-radius);
-}
-
-table {
-  margin-bottom: var(--spacer);
-  width: 100%;
-  border: 0 solid var(--border-color);
-  border-collapse: collapse;
-}
-
-td,
-th {
-  padding: calc(var(--spacer) / 4) calc(var(--spacer) / 2);
-  border-bottom-width: var(--border-width);
-}
-
-th {
-  text-align: left;
-}
-
-thead th {
-  border-bottom-color: var(--body-color);
-}
-
-.contact {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 1em 0;
+  border-radius: 0.25em;
 }

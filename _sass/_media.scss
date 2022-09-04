@@ -1,0 +1,38 @@
+@media screen and (min-width: 576px) {
+  #cv p, #cv #contact ul {
+    padding-left: 0.5em;
+  }
+}
+
+@media only print {
+  body {
+    font-size: 10pt;
+    background-color: white;
+    color: black;
+  }
+
+  a {
+    color: black;
+  }
+
+  .site-title {
+    font-size: 1.5em;
+  }
+
+  small {
+    display: none;
+  }
+
+  #cv {
+    p,
+    #contact ul {
+      padding-left: 0.5em;
+    }
+
+    .li-icon,
+    .reversefootnote,
+    a.icon {
+      display: none;
+    }
+  }
+}
