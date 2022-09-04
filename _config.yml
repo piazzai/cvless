@@ -1,25 +1,36 @@
 # site settings
+
 title:          cvless
 tagline:        Jekyll theme for a beautiful online CV
-url:            https://cvless.netlify.app
+url:            https://username.github.io
 baseurl:        ""
 permalink:      pretty
 repo:           https://github.com/username/username.github.io
 version:        2.0.0
 
 # user settings
+
+name:           Place Holder
+photo:          /assets/photo.jpg
+organization:   University of Jekyll
+department:     Department of Themes
+address:        123 Main St, Anytown, USA
+office:         Foobar Hall 1.23
+phone:          +1 234 567 890
+email:          username@domain.com
 author:
   name:         Place Holder
   url:          https://username.github.io
-  email:        username@domain.com
 
 # build settings
+
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
+
 exclude:
   - .git
   - .jekyll-cache
@@ -29,14 +40,18 @@ exclude:
   - LICENSE
   - README.md
   - vendor
+
 sass:
   sass_dir:     _sass
   style:        :compressed
   sourcemap:    never
+
 feed:
   path:         atom.xml
+
 autopages:
   enabled:      false
+
 pagination:
   enabled:      true
   per_page:     1
