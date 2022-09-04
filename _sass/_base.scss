@@ -44,8 +44,12 @@ hr {
   border-top: var(--border-width) solid var(--body-color);
 }
 
-.footnotes p {
+.footnotes {
+  padding-top: var(--spacer);
+
+  p {
     margin: 0;
+  }
 }
 
 img {
