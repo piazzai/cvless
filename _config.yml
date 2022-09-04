@@ -2,7 +2,7 @@
 
 title:          cvless
 tagline:        Jekyll theme for a beautiful online CV
-url:            https://username.github.io
+url:            https://cvless.netlify.app
 baseurl:        ""
 permalink:      pretty
 repo:           https://github.com/username/username.github.io
