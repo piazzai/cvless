@@ -1,6 +1,8 @@
 # cvless
 
-Cvless is a minimalist theme for static websites built with Jekyll, loosely based on the [Academic](https://github.com/gaalcaras/academic) theme developed by Gabriel Alcaras. The theme strives for simplicity and readability by following best practices of web design, including the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and [responsive layout](https://responsivedesign.is). Its typography is based on the Alegreya typeface, one of the 53 Fonts of the Decade selected by the Association Typographique Internationale (2011).
+## Under construction
+
+<!-- Cvless is a minimalist theme for static websites built with Jekyll, loosely based on the [Academic](https://github.com/gaalcaras/academic) theme developed by Gabriel Alcaras. The theme strives for simplicity and readability by following best practices of web design, including the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and [responsive layout](https://responsivedesign.is). Its typography is based on the Alegreya typeface, one of the 53 Fonts of the Decade selected by the Association Typographique Internationale (2011).
 
 Placing a CV with picture directly on the homepage, cvless aims to discourage wordy introductions and highlight professional achievements. If you print the homepage, the layout automatically changes to give the CV a more traditional appearance. This means you no longer have to maintain a separate CV for offline distribution.
 
@@ -211,4 +213,4 @@ Take a look at the [Font Awesome icon pack](https://fontawesome.com/icons?d=gall
 
 ## Bugs
 
-If you find any problem using this theme, please [open an issue](https://github.com/piazzai/cvless/issues).
+If you find any problem using this theme, please [open an issue](https://github.com/piazzai/cvless/issues). -->
