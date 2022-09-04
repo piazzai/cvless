@@ -2,7 +2,17 @@
 layout: default
 ---
 
-<article class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</article>
+<header>
+  <a class="site-title" href="{{ site.url }}">{{ site.title }}</a>
+  <small>{{ site.tagline }}</small>
+</header>
+<main>
+  <article class="page">
+    {{ content }}
+  </article>
+</main>
+<footer>
+  <small>
+    &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. All rights reserved.
+  </small>
+</footer>
