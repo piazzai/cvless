@@ -10,7 +10,9 @@ version:        2.0.0
 
 # user settings
 
-name:           Place Holder
+author:
+  name:         Place Holder
+  url:          https://username.github.io
 photo:          /assets/photo.jpg
 organization:   University of Jekyll
 department:     Department of Themes
@@ -18,9 +20,6 @@ address:        123 Main St, Anytown, USA
 office:         Foobar Hall 1.23
 phone:          +1 234 567 890
 email:          username@domain.com
-author:
-  name:         Place Holder
-  url:          https://username.github.io
 
 # build settings
 
