@@ -1,6 +1,6 @@
 # cvless
 
-Cvless is a theme for static websites built with Jekyll, loosely based on the [Poole](https://getpoole.com/) template. It aims for simplicity and readability by following best practices of graphic design, such as the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and of course, responsive layout. Its typography is based on the [Piazzolla type system](https://piazzolla.huertatipografica.com/), which performs extremely well over a wide range of font sizes.
+Cvless is a theme for static websites built with Jekyll. It aims for simplicity and readability by following best practices of graphic design, such as the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and of course, responsive layout. Its typography is based on the [Piazzolla type system](https://piazzolla.huertatipografica.com/), which performs extremely well over a wide range of font sizes.
 
 The main aesthetic feature of the theme is the use of [particles.js](https://vincentgarreau.com/particles.js/) to decorate the home page and the 404 page. In addition to these pages, the theme includes a well-designed CV page. Printing the CV page from browser automatically adapts the layout for a more traditional appearance. This means you no longer have to maintain a separate CV for offline distribution. Finally, the theme offers a simple and easily extensible blog.
 
