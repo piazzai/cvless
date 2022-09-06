@@ -8,7 +8,7 @@
   float: left;
   width: 50%;
   padding: 1em 2em;
-  border: 0.1em solid var(--color-border);
+  border: 0.075em solid var(--color-border);
   color: var(--color-button);
   transition: all 0.1s ease-in-out;
 
@@ -39,6 +39,6 @@ a.pagination-item {
   &:focus,
   &:hover {
     background-color: var(--color-border);
-    border: 0.1em solid var(--color-border);
+    border: 0.075em solid var(--color-border);
   }
 }
