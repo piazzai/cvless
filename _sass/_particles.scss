@@ -12,7 +12,7 @@
 
   .jumbotron {
     position: absolute;
-    top: 45%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
@@ -28,6 +28,12 @@
   h2 {
     color: var(--color-background);
   }
+}
+
+.particles-photo {
+  width: 50%;
+  border-radius: 50%;
+  margin: auto;
 }
 
 .particles-title {
