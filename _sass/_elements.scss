@@ -16,6 +16,10 @@ a.site-title {
   color: var(--color-text);
 }
 
+dd {
+  padding-left: 0.5em;
+}
+
 .archive ul,
 .contact ul {
   list-style-type: none;
