@@ -1,3 +1,17 @@
+@media screen and (min-width: 768px) {
+  .particles-icon {
+    margin: 0 1em;
+
+    svg {
+      transform: scale(2.5);
+    }
+  }
+
+  .particles-scroll svg {
+    transform: scale(3.5);
+  }
+}
+
 @media screen and (min-width: 576px) {
   #cv .contact ul,
   #cv p {
