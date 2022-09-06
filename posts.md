@@ -5,5 +5,5 @@ pagination:
   enabled: true
 ---
 
-{% include postview.html %}
+{% include postlist.html %}
 {% include pagination.html %}
