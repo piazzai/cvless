@@ -1,6 +1,16 @@
 # cvless
 
-## Under construction
+Under construction
+
+<!-- ## Credits
+
+-   Piazzolla
+-   Hack
+-   Iconoir
+-   Particles.js
+-   Poole
+-   Bootstrap
+-   Open Color -->
 
 <!-- Cvless is a minimalist theme for static websites built with Jekyll, loosely based on the [Academic](https://github.com/gaalcaras/academic) theme developed by Gabriel Alcaras. The theme strives for simplicity and readability by following best practices of web design, including the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and [responsive layout](https://responsivedesign.is). Its typography is based on the Alegreya typeface, one of the 53 Fonts of the Decade selected by the Association Typographique Internationale (2011).
 
