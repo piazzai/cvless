@@ -57,7 +57,7 @@ Second, they can be as links by writing:
 
 In this case, the icon shows up with link formatting and its stroke width slightly increases on hovering. Check it out. {% include iconlink.html icon="svg/github.svg" href="https://github.com/" %}
 
-Simple CSS allows you to modify various aspects of the icon's appearance, including `stroke-width`, `stroke` (i.e., color), and size (with `transform`). Here is a usage example:
+Simple CSS allows you to modify many aspects of the icon's appearance, including stroke width, color (with the `stroke` property), and size (with `transform`). Here is a usage example:
 
 {% highlight css %}
 svg {
@@ -65,7 +65,7 @@ svg {
   transform: scale(2.5);
   }
 svg path {
-    /* red path color */
+    /* red color */
     stroke: red;
     /* thinner line */
     stroke-width: 1.25;
@@ -82,4 +82,4 @@ Each icon available from Iconoir is essentially a text file:
 
 {% endhighlight %}
 
-The `<?...?>` tag at the beginning is useful for Google apps but not for a Jekyll website, and will actually show up as a string of text, so it needs to be deleted. This has already been done for the default icons, but remember to do it also for every additional icon you download.
+The `<?...?>` tag at the beginning is useful for Google apps but not for a Jekyll website, and will sometimes show up as a string of text, so it needs to be deleted. This has already been done for the default icons, but remember to do it also for every additional icon you download.
