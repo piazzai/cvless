@@ -30,11 +30,7 @@
     color: black;
   }
 
-  .site-title {
-    font-size: 1.5em;
-  }
-
-  small {
+  .pagination {
     display: none;
   }
 
@@ -42,6 +38,15 @@
     header {
       margin: 0;
     }
+
+    .site-title {
+      font-size: 1.5em;
+    }
+
+    small {
+      display: none;
+    }
+
     .contact ul,
     p {
       padding-left: 0.5em;
