@@ -86,13 +86,11 @@
 .particles-scroll {
   position: absolute;
   bottom: 8%;
-  left: 48.9%;
+  left: 50%;
   transform: translate(-50%, -50%);
 
-  a {
-    position: absolute;
-    transform-style: preserve-3d;
-    transform: translate(-50%, -50%);
+  .particles-icon {
+    position: relative;
     animation: pulse 1s infinite;
   }
 
