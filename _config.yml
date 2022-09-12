@@ -8,11 +8,11 @@ permalink:      pretty
 repo:           https://github.com/username/username.github.io
 version:        2.0.0
 
-# user settings
+# author settings
 
 author:
   name:         Place Holder
-  url:          https://username.github.io
+  email:        username@domain.com
 photo:          /assets/photo.jpg
 
 # build settings
