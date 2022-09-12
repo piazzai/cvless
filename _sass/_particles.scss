@@ -17,7 +17,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
-    white-space: nowrap;
   }
 }
 
@@ -54,6 +53,10 @@
   font-size: 1.25em;
   white-space: normal;
   color: var(--color-background);
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .particles-icon {
