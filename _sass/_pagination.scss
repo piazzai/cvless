@@ -10,6 +10,7 @@
   padding: 1em 2em;
   border: 0.075em solid var(--color-border);
   color: var(--color-button);
+  -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 
   svg path {
