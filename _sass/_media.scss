@@ -12,13 +12,6 @@
   }
 }
 
-@media screen and (min-width: 576px) {
-  #cv .contact ul,
-  #cv p {
-    padding-left: 0.5em;
-  }
-}
-
 @media only print {
   body {
     font-size: 10pt;
@@ -49,11 +42,6 @@
 
     small {
       display: none;
-    }
-
-    .contact ul,
-    p {
-      padding-left: 0.5em;
     }
 
     .li-icon,
