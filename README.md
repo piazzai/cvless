@@ -14,6 +14,16 @@ See the [demo](https://cvless.netlify.app) to get a better sense of what the the
 2.  Rename it to `[username].github.io`.
 3.  Start editing!
 
+## Usage
+
+Configuration primarily occurs in three files. First, `_config.yml`, which contains site variables such as title, tagline, url, and repository address, as well as the author's name and email address for inclusion in blog posts. There is also a variable that specifies a photo for inclusion in the homepage. This is optional: if the variable is empty or not set, no photo is displayed.
+
+Second, you should customize the file `_includes/contact.html` by inputting your contact details and adding/removing lines as needed. This information is prepended to your CV. It is possible to customize the icons that appear in this file: for more information on how to do this, see [this blog post](https://cvless.netlify.app/2022/08/01/on-the-use-of-icons/).
+
+Third, you might want to edit the style variables specified in `_sass/_variables.scss`. These allow you to customize the theme's color scheme and typefaces. There are many resources on the web to learn the principles of good website design. I personally recommend Matthew Butterick's [Practical Typography](https://practicaltypography.com/), which also covers [website publishing](https://practicaltypography.com/websites.html).
+
+In addition to these files, you can customize the favicon. For that, [favicon.io](https://favicon.io/) is an excellent tool.
+
 ## Credits
 
 The theme draws in one way or another from the following projects:
