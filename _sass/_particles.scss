@@ -15,6 +15,7 @@
     position: absolute;
     top: 44%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     pointer-events: none;
   }
@@ -64,6 +65,7 @@
   pointer-events: all;
 
   svg {
+    -webkit-transform: scale(2);
     transform: scale(2);
   }
 
@@ -87,14 +89,17 @@
   position: absolute;
   bottom: 5%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
   .particles-icon {
     position: relative;
+    -webkit-animation: pulse 1s infinite;
     animation: pulse 1s infinite;
   }
 
   svg {
+    -webkit-transform: scale(3);
     transform: scale(3);
   }
 }

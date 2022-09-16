@@ -3,11 +3,13 @@
     margin: 0 1em;
 
     svg {
+      -webkit-transform: scale(2.5);
       transform: scale(2.5);
     }
   }
 
   .particles-scroll svg {
+    -webkit-transform: scale(3.5);
     transform: scale(3.5);
   }
 }
