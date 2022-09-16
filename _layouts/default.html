@@ -5,8 +5,8 @@
 
 <body>
 
-  {% if page.layout == "home" %}{% include particles-home.html %}{% endif %}
-  {% if page.layout == "404" %}{% include particles-404.html %}{% endif %}
+  {% if page.title == "Home" %}{% include particles-home.html %}{% endif %}
+  {% if page.title == "404" %}{% include particles-404.html %}{% endif %}
 
   <div class="container">
     <div class="row justify-content-center">
