@@ -43,19 +43,19 @@ A small selection of icons already ships with the theme.
   </tbody>
 </table>
 
-They can be used in two ways through Liquid tags. The first is as simple glyphs for decorative purposes, as in the table above or in the [contact](/cv) section of the CV. To do so, just write:
+They can be used in two ways through Liquid tags. First, as simple glyphs for decorative purposes, as in the table above or in the [contact](/cv) section of the CV:
 
 {% highlight text %}
 {% raw %}{% include svg/github.svg %}{% endraw %}
 {% endhighlight %}
 
-Second, they can be as links by writing:
+Second, as links:
 
 {% highlight text %}
 {% raw %}{% include iconlink.html icon="svg/github.svg" href="https://github.com/" %}{% endraw %}
 {% endhighlight %}
 
-In this case, the icon shows up with link formatting and its stroke width slightly increases on hovering. Check it out. {% include iconlink.html icon="svg/github.svg" href="https://github.com/" %}
+In this case, the icon shows up with link formatting and its stroke width slightly increases on hovering. Here is an example: {% include iconlink.html icon="svg/github.svg" href="https://github.com/" %}
 
 Simple CSS allows you to modify many aspects of the icon's appearance, including stroke width, color (with the `stroke` property), and size (with `transform`). Here is a usage example:
 
