@@ -34,11 +34,15 @@ A small selection of icons already ships with the theme.
     </tr>
     <tr>
       <td>Social</td>
-      <td>{% include svg/facebook.svg %} {% include svg/twitter.svg %} {% include svg/instagram.svg %} {% include svg/linkedin.svg %} {% include svg/stackoverflow.svg %}</td>
+      <td>{% include svg/facebook.svg %} {% include svg/twitter.svg %} {% include svg/instagram.svg %} {% include svg/linkedin.svg %} {% include svg/stackoverflow.svg %} {% include svg/google-circled.svg %}</td>
     </tr>
     <tr>
       <td>Git</td>
       <td>{% include svg/github.svg %} {% include svg/github-outline.svg %}</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>{% include svg/user-circle-alt.svg %}</td>
     </tr>
   </tbody>
 </table>
