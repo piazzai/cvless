@@ -6,7 +6,6 @@ url:            https://cvless.netlify.app
 baseurl:        /
 permalink:      pretty
 repo:           https://github.com/username/username.github.io
-version:        2.1.0
 
 # author settings
 
