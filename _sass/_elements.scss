@@ -31,6 +31,7 @@ dd {
 }
 
 a.iconlink {
+  svg circle,
   svg path {
     stroke: var(--color-link);
   }
@@ -39,6 +40,7 @@ a.iconlink {
   &:hover {
     border: none;
 
+    svg circle,
     svg path {
       stroke-width: 0.1em;
     }

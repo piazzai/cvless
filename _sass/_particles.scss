@@ -71,6 +71,7 @@
     transform: scale(2);
   }
 
+  svg circle,
   svg path {
     stroke: var(--color-background) !important;
     stroke-width: 0.05em;
@@ -80,6 +81,7 @@
   &:hover {
     border: none;
 
+    svg circle,
     svg path {
       stroke: var(--color-background);
       stroke-width: 0.075em;
