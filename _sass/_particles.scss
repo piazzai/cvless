@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--color-particles);
+  background-color: var(--color-particles-background);
 
   .particles-js-canvas-el {
     width: 100%;
@@ -26,7 +26,7 @@
 
   h1,
   h2 {
-    color: var(--color-background);
+    color: var(--color-particles-text);
   }
 }
 
@@ -67,7 +67,7 @@
 
   svg circle,
   svg path {
-    stroke: var(--color-background) !important;
+    stroke: var(--color-particles-text) !important;
     stroke-width: 0.05em;
   }
 
