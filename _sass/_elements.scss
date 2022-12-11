@@ -9,6 +9,22 @@ a.site-title {
   }
 }
 
+.toggle-bar {
+  display: flex;
+  justify-content: end;
+  padding-top: 1.5em;
+}
+
+#theme-toggle.toggle-icon {
+  color: var(--color-heading);
+
+  &:focus,
+  &:hover {
+    cursor: pointer;
+    border: none;
+  }
+}
+
 .message {
   padding: 0.25em 1em;
   border-radius: 0.25em;
