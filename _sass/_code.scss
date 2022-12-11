@@ -3,13 +3,16 @@ pre,code {
 }
 
 code {
+  padding: 0 .25em;
+  border-radius: 0.25em;
   color: var(--color-code);
+  background-color: var(--color-chunk);
 }
 
 .highlight {
   padding: 0 1em;
   border-radius: 0.25em;
-  background-color: var(--color-background);
+  background-color: var(--color-chunk);
 
   pre {
     padding: 0;
