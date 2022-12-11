@@ -52,13 +52,6 @@
   font-weight: 400;
 }
 
-.particles-lead {
-  margin-bottom: 2.25em;
-  font-size: 1.25em;
-  white-space: normal;
-  color: var(--color-background);
-}
-
 .nowrap {
   white-space: nowrap;
 }
@@ -84,7 +77,6 @@
 
     svg circle,
     svg path {
-      stroke: var(--color-background);
       stroke-width: 0.075em;
     }
   }
