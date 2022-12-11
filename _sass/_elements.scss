@@ -15,13 +15,18 @@ a.site-title {
   padding-top: 1.5em;
 }
 
-#theme-toggle.toggle-icon {
+.toggle-icon {
   color: var(--color-heading);
 
   &:focus,
   &:hover {
     cursor: pointer;
     border: none;
+
+    svg circle,
+    svg path {
+      stroke-width: 0.1em;
+    }
   }
 }
 
