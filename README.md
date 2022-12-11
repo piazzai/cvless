@@ -4,6 +4,8 @@ Cvless is a theme for static websites built with Jekyll. It aims for simplicity 
 
 The main aesthetic feature of the theme is the use of [particles.js](https://vincentgarreau.com/particles.js/) to decorate the home page and the 404 page. In addition to these pages, the theme includes a well-designed CV page. Printing the CV page from browser automatically adapts the layout for a more traditional appearance. This means you no longer have to maintain a separate CV for offline distribution. Finally, the theme offers a simple and easily extensible blog.
 
+Light and dark modes are available. The theme initializes based on system preferences and stores the user's preference for the duration of the session.
+
 See the [demo](https://cvless.netlify.app) to get a better sense of what the theme looks like.
 
 ![](https://github.com/piazzai/cvless/blob/master/assets/screenshot.jpg)
