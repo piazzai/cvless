@@ -1,7 +1,13 @@
 <header>
   <div>
     <a class="site-title" href="{{ site.url }}">{{ site.title }}</a>
-    <small>{{ site.tagline }}</small>
+    <small>
+      {% if site.tagshort %}
+      {{ site.tagshort }}
+      {% else %}
+      {{ site.tagline }}
+      {% endif %}
+    </small>
   </div>
   <a id="theme-toggle" class="toggle-icon" onclick="modeSwitcher()"></a>
 </header>
