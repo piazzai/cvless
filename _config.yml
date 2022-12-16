@@ -2,7 +2,7 @@
 
 title:          cvless
 tagline:        Jekyll theme for a beautiful online CV
-tagshort:       A Jekyll theme
+tagshort:       Jekyll theme
 url:            https://cvless.netlify.app
 baseurl:        ""
 permalink:      pretty
