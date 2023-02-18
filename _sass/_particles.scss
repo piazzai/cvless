@@ -48,7 +48,7 @@
 
 .particles-subtitle {
   margin: 0 0 1em 0;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 400;
 }
 
@@ -57,12 +57,12 @@
 }
 
 .particles-icon {
-  margin: 0 0.6em;
+  margin: 0 0.5em;
   pointer-events: all;
 
   svg {
-    -webkit-transform: scale(2);
-    transform: scale(2);
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
   }
 
   svg circle,
@@ -96,7 +96,7 @@
   }
 
   svg {
-    -webkit-transform: scale(3);
-    transform: scale(3);
+    -webkit-transform: scale(2.7);
+    transform: scale(2.7);
   }
 }

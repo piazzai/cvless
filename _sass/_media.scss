@@ -24,26 +24,30 @@
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    font-size: 1.25em;
+  }
+
   .particles-title {
     font-size: 3.5em;
   }
 
   .particles-subtitle {
-    font-size: 2em;
+    font-size: 1.75em;
   }
 
   .particles-icon {
     margin: 0 1em;
 
     svg {
-      -webkit-transform: scale(2.5);
-      transform: scale(2.5);
+      -webkit-transform: scale(2.4);
+      transform: scale(2.4);
     }
   }
 
   .particles-scroll svg {
-    -webkit-transform: scale(3.5);
-    transform: scale(3.5);
+    -webkit-transform: scale(3.6);
+    transform: scale(3.6);
   }
 }
 
