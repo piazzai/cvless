@@ -1,8 +1,8 @@
 # cvless
 
-Cvless is a theme for static websites built with Jekyll. It aims for simplicity and readability by following best practices of graphic design, such as the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and of course, responsive layout. Its typography is based on the [Piazzolla type system](https://piazzolla.huertatipografica.com/), which performs extremely well over a wide range of font sizes.
+Cvless is a theme for static websites built with Jekyll. It aims for simplicity and readability by following best practices of graphic design, like the use of [high contrast](https://www.contrastrebellion.com), [law of proximity](https://lawsofux.com/law-of-proximity), and responsive layout. Its typography is based on the [Piazzolla system](https://piazzolla.huertatipografica.com/), which performs extremely well over a wide range of font sizes.
 
-The main aesthetic feature of the theme is the use of [particles.js](https://vincentgarreau.com/particles.js/) to decorate the home page and the 404 page. In addition to these pages, the theme includes a well-designed CV page. Printing the CV page from browser automatically adapts the layout for a more traditional appearance. This means you no longer have to maintain a separate CV for offline distribution. Finally, the theme offers a simple and easily extensible blog.
+The main aesthetic feature of the theme is the use of [particles.js](https://vincentgarreau.com/particles.js/) in the home and the 404 pages. In addition, the theme includes a well-designed CV page. Printing this from browser automatically adapts the layout for a more traditional appearance, so you no longer have to maintain a separate CV for offline distribution. Finally, the theme offers a simple and easily extensible blog.
 
 Light and dark modes are available. The theme initializes based on system preferences and stores the user's preference for the duration of the session.
 
@@ -18,15 +18,15 @@ See the [demo](https://cvless.netlify.app) to get a better sense of what the the
 
 ## Usage
 
-Configuration primarily occurs in four files. First, `_config.yml`, which contains site variables such as title, tagline, url, and repository address, as well as the author's name and email address for inclusion in blog posts. There is also a variable that specifies a photo for inclusion in the homepage. This is optional and can be removed.
+Configuration primarily occurs in four files. First, `_config.yml`, which contains site variables such as title, tagline, url, and repository address, as well as the author's name and email address for inclusion in blog posts. You can also specify the path to an avatar for inclusion in the home (optional).
 
-Second, you should update icon links in `_includes/particles-home.html` and add/remove icons as needed. You might want to add icons that are not included by default. For more information on how to do this, see [this blog post](https://cvless.netlify.app/2022/08/01/on-the-use-of-icons/).
+Second, you should update icon links in `_includes/particles-home.html` and add/remove icons as needed. You might want to add icons that are not included in the theme by default. For more information on how to do this, see [this post](https://cvless.netlify.app/2022/08/01/on-the-use-of-icons/).
 
-Third, you should customize the file `_includes/contact.html` by inputting your contact details and adding/removing lines as needed. This information is prepended to your CV. It is possible to customize the icons that appear in this file: for more information, see the blog post above.
+Third, you should customize the file `_includes/contact.html` by inputting your contact details and adding/removing lines as needed. This information is prepended to your CV.
 
-Fourth, you might want to edit the style variables specified in `_sass/_variables.scss`. These allow you to customize the theme's color scheme and typefaces. There are many resources on the web to learn the principles of good web design. I personally recommend Matthew Butterick's [Practical Typography](https://practicaltypography.com/), which also covers [websites](https://practicaltypography.com/websites.html).
+Fourth, you might want to edit the style variables specified in `_sass/_variables.scss`. These allow you to customize the theme's color scheme and typefaces. There are many resources on the web to learn the principles of good web design. I personally recommend Matthew Butterick's [Practical Typography](https://practicaltypography.com/websites.html).
 
-In addition to these files, you can customize favicons in the `assets` folder. For that, [favicon.io](https://favicon.io/) is an excellent tool. You can also change the particles.js configurations in `assets/json`. The [particles.js homepage](https://vincentgarreau.com/particles.js/) features an interactive tool from which you can export a new configuration.
+In addition to these files, you can customize favicons in the `assets` folder. For that, [favicon.io](https://favicon.io/) is an excellent tool. You can also change the particles.js configurations in `assets/json`. The [library homepage](https://vincentgarreau.com/particles.js/) features an interactive tool from which you can export a new configuration.
 
 ## Credits
 
