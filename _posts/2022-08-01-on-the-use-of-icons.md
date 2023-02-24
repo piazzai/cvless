@@ -4,9 +4,9 @@ title: On the use of icons
 lead: A very quick guide.
 ---
 
-The icons used throughout this theme come from the [Iconoir](https://iconoir.com/) library. They can be downloaded from the Iconoir website as svg files and saved in `assets/svg` for use in your website.
+The icons used throughout this theme are partly custom-made, and partly come from the [Iconoir](https://iconoir.com/) library. More can be created or downloaded from the Iconoir website as svg files, and saved in `assets/svg` for use in your website.
 
-A small selection of icons already ships with the theme.
+Here's an overview of icons that already ship with the theme.
 
 <table class="table">
   <thead>
@@ -26,7 +26,7 @@ A small selection of icons already ships with the theme.
     </tr>
     <tr>
       <td>Communication</td>
-      <td>{% include svg/phone.svg %} {% include svg/mail.svg %} {% include svg/internet.svg %}</td>
+      <td>{% include svg/phone.svg %} {% include svg/mail.svg %} {% include svg/internet.svg %} {% include svg/send-mail-circled.svg %}</td>
     </tr>
     <tr>
       <td>Maps</td>
@@ -43,6 +43,18 @@ A small selection of icons already ships with the theme.
     <tr>
       <td>Users</td>
       <td>{% include svg/user-circle-alt.svg %}</td>
+    </tr>
+    <tr>
+      <td>CV</td>
+      <td>{% include svg/cv-circled.svg %}</td>
+    </tr>
+    <tr>
+      <td>Academic</td>
+      <td>{% include svg/orcid.svg %} {% include svg/clarivate-circled.svg %} {% include svg/scopus-circled.svg %}</td>
+    </tr>
+    <tr>
+      <td>Chess</td>
+      <td>{% include svg/lichess-circled.svg %}</td>
     </tr>
   </tbody>
 </table>
@@ -86,4 +98,4 @@ Each icon available from Iconoir is essentially a text file:
 
 {% endhighlight %}
 
-The `<?...?>` tag at the beginning is useful for Google apps but not for a Jekyll website, and will sometimes show up as a string of text, so it needs to be deleted. This has already been done for the default icons, but remember to do it also for every additional icon you download.
+The `<?...?>` tag at the beginning is useful for apps but not for a Jekyll website, and will sometimes show up as a string of text, so it needs to be deleted. This has already been done for the default icons, but remember to do it also for every additional icon you download.
