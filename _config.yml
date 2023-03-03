@@ -18,22 +18,9 @@ photo: /assets/photo.jpg
 
 # build settings
 
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate-v2
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
 exclude:
-  - .git
-  - .jekyll-cache
-  - .sass-cache
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
-  - vendor
 
 sass:
   sass_dir: _sass
