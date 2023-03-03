@@ -16,9 +16,13 @@
     </div>
   </div>
   <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
+  {% if page.title != "404" %}
   <script src="{{ '/assets/js/darkmode.js' | relative_url }}"></script>
+  {% endif %}
+  {% if page.title == "Home" or page.title == "404" %}
+  <script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  {% endif %}
 </body>
 
 </html>
