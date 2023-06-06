@@ -22,6 +22,16 @@ exclude:
   - LICENSE
   - README.md
 
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
 sass:
   sass_dir: _sass
   sourcemap: never
