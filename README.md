@@ -33,8 +33,8 @@ In addition to these files, you can customize favicons in the `assets` folder. F
 This repo includes a docker-compose file that allows you to quickly setup a container running Jekyll. If you don't already have Docker and docker-compose installed, you can install them using the following guides from Docker:
 
 **Install Guides**
-* Docker: https://docs.docker.com/get-docker/
-* docker-compose: https://docs.docker.com/compose/install/
+* [Docker](https://docs.docker.com/get-docker/)
+* [docker-compose](https://docs.docker.com/compose/install/)
 
 To start the container simply run:
 
