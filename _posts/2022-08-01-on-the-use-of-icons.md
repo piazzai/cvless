@@ -41,6 +41,10 @@ Here's an overview of icons that already ship with the theme.
       <td>{% include svg/github.svg %} {% include svg/github-outline.svg %}</td>
     </tr>
     <tr>
+      <td>Security</td>
+      <td>{% include svg/key-alt-circled.svg %}</td>
+    </tr>
+    <tr>
       <td>Users</td>
       <td>{% include svg/user-circle-alt.svg %}</td>
     </tr>
