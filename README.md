@@ -42,7 +42,7 @@ To start the container simply run:
 docker-compose up
 ```
 
-Alternatively you can run the container without docker-compose using the following command on Linux:
+Alternatively you can run the container without docker-compose using the following command on Mac/Linux:
 
 ```
 docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
