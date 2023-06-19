@@ -1,20 +1,19 @@
 # site settings
 
-title: HABIB ULLAH
-description: Enemy at the Gates on Pivacy & Security
-taglong: Enemy at the Gates on Privacy & Security
-tagshort: 
-url: https://habibi.bio
-# url: https://cvless.netlify.app
+title: cvless
+description: Jekyll theme for a beautiful online CV
+taglong: Jekyll theme for a beautiful online CV
+tagshort: Jekyll theme
+url: https://cvless.netlify.app
 baseurl: ""
 permalink: pretty
-#repo: https://github.com/username/username.github.io
-repo: https://github.com/habib-Bashi/habib-bashi.github.io
+repo: https://github.com/username/username.github.io
 
 # author settings
+
 author:
-  name: Habib-Bashi
-  email: hhabibi105@gmail.com
+  name: Place Holder
+  email: username@domain.com
 photo: /assets/photo.jpg
 
 # build settings

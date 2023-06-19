@@ -1,7 +1,10 @@
+
+# no version needed since 2020
+
 services:
-  cvless:
+  jekyll:
     image: bretfisher/jekyll-serve
-    ports:
-      - "4000:4000"
     volumes:
       - .:/site
+    ports:
+      - '8080:4000'
