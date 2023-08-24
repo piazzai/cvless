@@ -49,3 +49,11 @@ pagination:
   sort_reverse: true
   permalink: /:num/
   title: ":title &middot; Page :num"
+
+# social media links
+facebook_username: username
+twitter_username: username
+instagram_username: username
+linkedin_username: username
+stackoverflow_username: username
+github_username: username

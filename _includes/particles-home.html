@@ -6,12 +6,12 @@
     <h1 class="particles-title">{{ site.title }}</h1>
     <h1 class="particles-subtitle">{{ site.taglong }}</h1>
     <div class="nowrap">
-      <a class="particles-icon" href="https://www.facebook.com/">{% include svg/facebook.svg %}</a>
-      <a class="particles-icon" href="https://twitter.com/">{% include svg/twitter.svg %}</a>
-      <a class="particles-icon" href="https://www.instagram.com/">{% include svg/instagram.svg %}</a>
-      <a class="particles-icon" href="https://www.linkedin.com/">{% include svg/linkedin.svg %}</a>
-      <a class="particles-icon" href="https://stackoverflow.com/">{% include svg/stackoverflow.svg %}</a>
-      <a class="particles-icon" href="https://github.com/">{% include svg/github.svg %}</a>
+      <a class="particles-icon" href="https://www.facebook.com/{{ site.facebook_username }}">{% include svg/facebook.svg %}</a>
+      <a class="particles-icon" href="https://twitter.com/{{ site.twitter_username }}">{% include svg/twitter.svg %}</a>
+      <a class="particles-icon" href="https://www.instagram.com/{{ site.instagram_username }}">{% include svg/instagram.svg %}</a>
+      <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">{% include svg/linkedin.svg %}</a>
+      <a class="particles-icon" href="https://stackoverflow.com/{{ site.stackoverflow_username }}">{% include svg/stackoverflow.svg %}</a>
+      <a class="particles-icon" href="https://github.com/{{ site.github_username }}">{% include svg/github.svg %}</a>
       <a class="particles-icon" href="cv">{% include svg/cv-circled.svg %}</a>
     </div>
   </div>
