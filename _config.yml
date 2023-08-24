@@ -18,12 +18,13 @@ photo: /assets/jpg/photo.jpg
 
 # social media links
 
-facebook_username: username
-twitter_username: username
-instagram_username: username
-linkedin_username: username
-stackoverflow_username: 0000000/username
-github_username: username
+social:
+  facebook: username
+  github: username
+  instagram: username
+  linkedin: username
+  stackoverflow: 0000000/username
+  twitter: username
 
 # build settings
 
