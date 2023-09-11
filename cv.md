@@ -16,11 +16,10 @@ Cybersecurity professional with a solid educational foundation and a proven trac
 
 ## TECHNICAL SKILLS
 
-* Security Risk Management          * Technical Autonomy
-* IT Security Expertise             * Azure Cloud Administration 
-* ISO27001 Knowledge                * Ubuntu and Kali Linux
+* Security Risk Management        
+* IT Security Expertise            
+* ISO27001 Knowledge             
 * Vistualisation
   
 
-
-Links for the Projects: 
+Links to the Projects: 
