@@ -8,24 +8,19 @@ title: CV
 {% include contact.html %}
 
 # PROFILE
-A dynamic and performance-focused IT helpdesk support experienced in client-centered roles in IT settings and proficient in successful project delivery. Equipped with sharp analytical and problem-solving skills, capable of specifying the needs of an organisation with extreme accuracy and building precise and dynamic solutions. Extensive background in project management, infrastructure management, technical support, network and database management and quality assurance gained from education and years of employment within the IT industry. A hardworking, innovative and high performing professional ready for a new employment opportunity to utilise expertise and leadership skills to contribute to the organisation’s growth and development.
+Cybersecurity professional with a solid educational foundation and a proven track record. Holding a Cybersecurity certificate from Monash University and a Bachelor of Science in Computer Science, I offer a unique blend of technical expertise and soft skills. I've held diverse roles, from self-employed business partners to contributing to projects with organisations like UNDP and the World Bank. These experiences have honed my problem-solving skills, project management abilities, and knack for building relationships with diverse stakeholders.
 
 ## EDUCATION
-* Cyber Security Bootcamp Program from Monash University-2023
-* Bachelor’s Degree in computer science
-Newport Institute of Communication and Economics 2005
+* Certificate, Cybersecurity – Monash University Melbourne, Australia
+* Bachelor of Science, Computer Science – New Ports Institute Karachi, Pakistan
 
 ## TECHNICAL SKILLS
 
-•	Azure Administration
-•	Power Shell Scripting 
-•	Bash Scripting
-•	Ubuntu, Git Bash
-•	Virtualization VM
-•	Network Plus
-•	Office 365 suite, Exchange online, One Drive, MS Team, and Share Point
-•	Modern Desktop Services Linux/Windows
-•	Routers, Firewall configurations and troubleshooting
-•	Peripheral devices troubleshooting
-•	Problem Solving Approach
-•	Customer Centric Solutions
+* Security Risk Management          * Technical Autonomy
+* IT Security Expertise             * Azure Cloud Administration 
+* ISO27001 Knowledge                * Ubuntu and Kali Linux
+* Vistualisation
+  
+
+
+Links for the Projects: 
