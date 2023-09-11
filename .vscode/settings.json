@@ -1,4 +1,7 @@
 {
     "appService.defaultWebAppToDeploy": "undefined/subscriptions/673b1338-9782-4d5b-b71c-4915bf7addd1/resourceGroups/aaron-rg/providers/Microsoft.Web/sites/aaron-webapp",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "editor.codeActionsOnSave": {
+        
+    }
 }
