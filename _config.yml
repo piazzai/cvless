@@ -8,6 +8,7 @@ url: https://cvless.netlify.app
 baseurl: ""
 permalink: pretty
 repo: https://github.com/username/username.github.io
+theme: modernist
 
 # author settings
 
