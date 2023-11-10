@@ -1,10 +1,10 @@
 # site settings
 
-title: Tan | USF CS Senior Undergraduate
-description: Personal online CV/Resume
-taglong: Personal online CV/Resume
-tagshort: Tan's Portfolio
-url: https://tanthai028.netlify.app
+title: cvless
+description: Jekyll theme for a beautiful online CV
+taglong: Jekyll theme for a beautiful online CV
+tagshort: Jekyll theme
+url: https://cvless.netlify.app
 baseurl: ""
 permalink: pretty
 repo: https://github.com/username/username.github.io
@@ -12,8 +12,8 @@ repo: https://github.com/username/username.github.io
 # author settings
 
 author:
-  name: Tan Thai
-  email: tanthai028@gmail.com
+  name: Place Holder
+  email: username@domain.com
 photo: /assets/jpg/photo.jpg
 
 # social media links
