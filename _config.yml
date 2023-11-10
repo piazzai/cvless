@@ -1,19 +1,19 @@
 # site settings
 
-title: cvless
+title: Tan Thai
 description: Jekyll theme for a beautiful online CV
 taglong: Jekyll theme for a beautiful online CV
 tagshort: Jekyll theme
-url: https://cvless.netlify.app
+url: https://tanthai028.github.io/
 baseurl: ""
 permalink: pretty
-repo: https://github.com/username/username.github.io
+repo: https://github.com/tanthai028/tanthai028.github.io/
 
 # author settings
 
 author:
-  name: Place Holder
-  email: username@domain.com
+  name: Tan Thai
+  email: tanthai028@gmail.com
 photo: /assets/jpg/photo.jpg
 
 # social media links
