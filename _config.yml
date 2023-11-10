@@ -1,13 +1,13 @@
 # site settings
 
-title: cvless
+title: Chaw Thiri San
 description: Jekyll theme for a beautiful online CV
 taglong: Jekyll theme for a beautiful online CV
 tagshort: Jekyll theme
 url: https://cvless.netlify.app
 baseurl: ""
 permalink: pretty
-repo: https://github.com/username/username.github.io
+repo: https://github.com/chaw-thiri/chaw-thiri.github.io
 
 # author settings
 
