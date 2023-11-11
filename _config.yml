@@ -1,10 +1,10 @@
 # site settings
 
 title: Chaw Thiri San
-description: Jekyll theme for a beautiful online CV
-taglong: Jekyll theme for a beautiful online CV
-tagshort: Jekyll theme
-url: https://cvless.netlify.app
+description: Welcome to Chaw's space
+taglong: 
+tagshort: Chaw's space
+url: https://chaw-thiri.github.io
 baseurl: ""
 permalink: pretty
 repo: https://github.com/chaw-thiri/chaw-thiri.github.io
@@ -12,19 +12,19 @@ repo: https://github.com/chaw-thiri/chaw-thiri.github.io
 # author settings
 
 author:
-  name: Place Holder
-  email: username@domain.com
-photo: /assets/jpg/photo.jpg
+  name: Chaw Thiri San
+  email: chawthiri177@gmail.com
+photo: one punch man.jpg
 
 # social media links
 
 social:
-  facebook: username
-  github: username
-  instagram: username
-  linkedin: username
-  stackoverflow: 0000000/username
-  twitter: username
+  
+  github: chaw-thiri
+  instagram: chaw_chaw_01
+  linkedin: chaw-chaw
+  youtube: chaw_chaw_
+  
 
 # build settings
 
