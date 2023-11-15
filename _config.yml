@@ -3,23 +3,23 @@
 title: NMac
 description: Portfolio site and blog for NMac
 taglong: Future Computer Science Graduate with a Rich Tapestry of Technical Expertise and Military Precision. Bridging the Worlds of Mechatronics, Cybersecurity, and Leadership for Innovative Solutions in High-Pressure Environments.
-tagshort: Tech-Savvy, Military-Disciplined Computer Science Innovator. Coding the Future.
-url: https://nathanmcl.github.io/
+tagshort: Tech-Savvy, Military-Disciplined Computer Science Innovator. Coding the Future, Leading with Excellence.
+url: https://nathanMcL.github.io/
 baseurl: ""
 permalink: pretty
-repo: https://github.com/nathanmcl/nathanmcl.github.io
+repo: https://github.com/nathanMcL/nathanMcL.github.io
 
 # author settings
 
 author:
   name: NMac
   email: macnanon@gmail.com
-photo: assets/jpg/NM_logo.png
+photo: /assets/jpg/NM_logo.png
 
 # social media links
 
 social:
-  github: nathanmcl
+  github: nathanMcL
   
   
 
