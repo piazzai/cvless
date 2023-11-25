@@ -12,8 +12,8 @@ repo: https://github.com/username/username.github.io
 # author settings
 
 author:
-  name: Place Holder
-  email: username@domain.com
+name: Place Holder
+email: username@domain.com
 photo: /assets/jpg/photo.jpg
 
 # social media links
