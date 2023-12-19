@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Today I made my website
-lead: I built a website using jekyll
+lead: I built a website using jekyll to upload my personal projects
 ---
 In this [website](https://chaw.compare/) I will be posting all the projects I have established throughout my coding journey.
 
