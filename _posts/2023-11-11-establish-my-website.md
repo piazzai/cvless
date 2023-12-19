@@ -3,6 +3,11 @@ layout: post
 title: Today I made my website
 lead: I built a website using jekyll
 ---
-[Jekyll](https://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/jekyll/jekyll/blob/master/README.markdown):
+In this [website](https://chaw.compare/) I will be posting all the projects I have established throughout my coding journey.
 
-> Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+Currently I code using these languages: 
+<p align="center">
+   <img src="https://skillicons.dev/icons?i=bash,git,py,c,cpp,github,html,css,javascript,sqlite"/>
+</p>
+
+> Plese contract here [chawthiri177@gmail.com](chawthiri177@gmail.com) for any collaboration.
