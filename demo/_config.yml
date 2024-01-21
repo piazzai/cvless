@@ -15,7 +15,7 @@ repo: https://github.com/username/username.github.io
 author:
   name: Place Holder
   email: username@domain.com
-photo: /assets/jpg/photo.jpg
+photo: assets/files/photo.jpg
 
 # social media links
 social:
