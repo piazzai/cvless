@@ -1,10 +1,13 @@
-# site settings
 title: cvless
 description: Jekyll theme for a beautiful online CV
+baseurl: ""
+url: https://cvless.netlify.app
+
+theme: cvless
+
+# site settings
 taglong: Jekyll theme for a beautiful online CV
 tagshort: Jekyll theme
-url: https://cvless.netlify.app
-baseurl: ""
 permalink: pretty
 repo: https://github.com/username/username.github.io
 
