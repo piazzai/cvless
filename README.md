@@ -6,7 +6,7 @@ The main aesthetic feature of the theme is the use of [particles.js](https://vin
 
 Light and dark modes are available. The theme initializes based on system preferences and stores the user's preference for the duration of the session.
 
-See the [demo](https://cvless.netlify.app) to get a better sense of what the theme looks like.
+See the [demo](https://piazzai.github.io/cvless) to get a better sense of what the theme looks like.
 
 ![](https://github.com/piazzai/cvless/blob/master/screenshot.png)
 
@@ -53,7 +53,7 @@ To customize hidden files, you can create new files with the same names and path
 
 Configuration primarily occurs in four files. First, `_config.yml`, which contains site variables such as title, tagline, url, and repository address, as well as the author's name and email address for inclusion in blog posts. You can also specify the path to an avatar for inclusion in the home (optional).
 
-Second, you should update icon links in `_includes/particles-home.html` and add/remove icons as needed. You might want to add icons that are not included in the theme by default. For more information on how to do this, see [this post](https://cvless.netlify.app/2022/08/01/on-the-use-of-icons/).
+Second, you should update icon links in `_includes/particles-home.html` and add/remove icons as needed. You might want to add icons that are not included in the theme by default. For more information on how to do this, see [this post](https://piazzai.github.io/cvless/2022/08/01/on-the-use-of-icons/).
 
 Third, you should customize the file `_includes/contact.html` by inputting your contact details and adding/removing lines as needed. This information is prepended to your CV.
 
