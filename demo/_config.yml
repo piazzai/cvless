@@ -27,6 +27,7 @@ social:
   x: username
 
 # build settings
+permalink: pretty
 exclude:
   - docker-compose.yml
   - LICENSE
