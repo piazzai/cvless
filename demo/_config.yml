@@ -28,5 +28,6 @@ social:
 
 # build settings
 exclude:
+  - docker-compose.yml
   - LICENSE
   - README.md
