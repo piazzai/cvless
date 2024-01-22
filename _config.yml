@@ -3,6 +3,8 @@ description: ""
 baseurl: ""
 url: ""
 
+permalink: pretty
+
 exclude:
   - demo/
   - cvless.gemspec

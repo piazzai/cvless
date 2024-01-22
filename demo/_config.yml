@@ -8,7 +8,6 @@ theme: cvless
 # site settings
 taglong: Jekyll theme for a beautiful online CV
 tagshort: Jekyll theme
-permalink: pretty
 repo: https://github.com/username/username.github.io
 
 # author settings
