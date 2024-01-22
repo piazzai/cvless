@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://cvless.netlify.app/2022/08/01/on-the-use-of-icons/</loc>
+<lastmod>2022-08-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://cvless.netlify.app/2022/08/15/example-content/</loc>
+<lastmod>2022-08-15T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://cvless.netlify.app/2022/09/01/whats-jekyll/</loc>
+<lastmod>2022-09-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://cvless.netlify.app/cv/</loc>
+</url>
+<url>
+<loc>https://cvless.netlify.app/</loc>
+</url>
+<url>
+<loc>https://cvless.netlify.app/assets/files/cv.pdf</loc>
+<lastmod>2023-08-04T15:05:15+02:00</lastmod>
+</url>
+</urlset>
