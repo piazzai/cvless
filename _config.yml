@@ -1,7 +1,7 @@
 title: "Gabriel Cantanhede's Website"
 description: "Test"
 baseurl: "gcantanhede-sci.github.io"
-url: "https://gcantanhede-sci.github.io"
+url: "https://gcantanhede-sci.github.io/docs"
 theme: "cvless"
 
 exclude:
