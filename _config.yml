@@ -1,4 +1,4 @@
-title: Gabriel Cantanhede's Website
+title: Gabriel Cantanhede, M.Sc.
 description: My online CV
 baseurl: ""
 url: https://gcantanhede-sci.github.io
@@ -6,8 +6,8 @@ url: https://gcantanhede-sci.github.io
 theme: cvless
 
 # site settings
-taglong: A beautiful online CV
-tagshort: Jekyll theme
+taglong: Senior Data Analyst, Pythonista
+tagshort: Senior Data Analyst, Pythonista
 
 # author settings
 author:
@@ -23,8 +23,6 @@ social:
   github: gcantanhede-sci
   instagram: username
   linkedin: username
-  stackoverflow: 0000000/username
-  x: username
 
 # build settings
 permalink: pretty
