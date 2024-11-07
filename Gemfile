@@ -1,5 +1,3 @@
 source "https://rubygems.org"
-gem "jekyll"
-gem "webrick"
 
-gemspec
+gem 'cvless', '~> 2.2'
