@@ -2,7 +2,7 @@ title: "Gabriel Cantanhede's Website"
 description: "My personal website"
 baseurl: "gcantanhede-sci.github.io"
 url: "https://gcantanhede-sci.github.io/"
-theme: "cvless"
+theme: "My theme"
 
 exclude:
   - demo/
@@ -26,7 +26,7 @@ feed:
   path: atom.xml
 
 autopages:
-  enabled: true
+  enabled: false
 
 pagination:
   enabled: true
