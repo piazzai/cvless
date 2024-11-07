@@ -7,7 +7,7 @@ theme: cvless
 
 # site settings
 taglong: Senior Data Analyst, Pythonista
-tagshort: Senior Data Analyst, Pythonista
+tagshort: Sr D.A, Py-man
 
 # author settings
 author:
@@ -19,10 +19,8 @@ phone: +1 234 567 890
 
 # social media links
 social:
-  facebook: username
   github: gcantanhede-sci
-  instagram: username
-  linkedin: username
+  linkedin: gabriel-l-cantanhede-da-silva
 
 # build settings
 permalink: pretty
