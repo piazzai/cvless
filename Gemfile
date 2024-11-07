@@ -1,15 +1,5 @@
-# Gemfile
+source "https://rubygems.org"
+gem "jekyll"
+gem "webrick"
 
-source 'https://rubygems.org'
-
-gem install github-pages
-gem install jekyll-feed
-bundle update
-
-gem "jekyll", "~> 4.2"
-
-group :jekyll_plugins do
-  gem "jekyll-timeago", "~> 0.13.1"
-end
-
-run bundle exec jekyll serve
+gemspec
