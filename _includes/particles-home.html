@@ -12,14 +12,26 @@
       {% if site.social.x %}
       <a class="particles-icon" href="https://twitter.com/{{ site.social.x }}">{% include svg/x.svg %}</a>
       {% endif %}
+      {% if site.social.mastodon %}
+      <a class="particles-icon" href="https://mastodon.social/{{ site.social.mastodon }}">{% include svg/mastodon.svg %}</a>
+      {% endif %}
+      {% if site.social.bluesky %}
+      <a class="particles-icon" href="https://bsky.app/profile/{{ site.social.bluesky }}">{% include svg/bluesky.svg %}</a>
+      {% endif %}
       {% if site.social.instagram %}      
       <a class="particles-icon" href="https://www.instagram.com/{{ site.social.instagram }}">{% include svg/instagram.svg %}</a>
       {% endif %}
       {% if site.social.linkedin %}
       <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{% include svg/linkedin.svg %}</a>
       {% endif %}
+      {% if site.social.xing %}
+      <a class="particles-icon" href="https://www.xing.com/profile/{{ site.social.xing }}">{% include svg/xing.svg %}</a>
+      {% endif %}
       {% if site.social.stackoverflow %}
       <a class="particles-icon" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}">{% include svg/stackoverflow.svg %}</a>
+      {% endif %}
+      {% if site.social.medium %}
+      <a class="particles-icon" href="https://medium.com/{{ site.social.medium }}">{% include svg/medium.svg %}</a>
       {% endif %}
       {% if site.social.github %}
       <a class="particles-icon" href="https://github.com/{{ site.social.github }}">{% include svg/github.svg %}</a>
