@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 128 56 L 128 180 " transform="matrix(0.09375,0,0,0.09375,0,0)"/>
+<path style="fill:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 187.083333 152.416667 C 195 152.791667 216.208333 151.083333 224 120 C 231.791667 88.916667 238.916667 48 208 48 C 177.083333 48 128 96 128 128 C 128 96 78.916667 48 48 48 C 17.083333 48 24 88 32 120 C 40 152 61 152.791667 68.916667 152.416667 " transform="matrix(0.09375,0,0,0.09375,0,0)"/>
+<path style="fill:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 88 144.208333 C 68.75 146.333333 54.666667 163.333333 56.083333 182.625 C 57.541667 201.958333 73.958333 216.666667 93.333333 215.958333 C 112.666667 215.25 128 199.375 128 180 C 128 199.375 143.333333 215.25 162.666667 215.958333 C 182.041667 216.666667 198.458333 201.958333 199.916667 182.625 C 201.333333 163.333333 187.25 146.333333 168 144.208333 " transform="matrix(0.09375,0,0,0.09375,0,0)"/>
+</g>
+</svg>
