@@ -20,10 +20,6 @@ phone: +1 234 567 890
 # social media links
 social:
   facebook: username
-  github: username
-  instagram: username
-  linkedin: username
-  stackoverflow: 0000000/username
   x: username
   mastodon:
     user: username
@@ -31,8 +27,12 @@ social:
   bluesky:
     user: username
     domain: bsky.social
+  instagram: username
+  linkedin: username
   xing: username
+  stackoverflow: 0000000/username
   medium: username
+  github: username
 
 # build settings
 permalink: pretty
