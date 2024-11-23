@@ -25,6 +25,14 @@ social:
   linkedin: username
   stackoverflow: 0000000/username
   x: username
+  mastodon:
+    user: username
+    domain: mastodon.social
+  bluesky:
+    user: username
+    domain: bsky.social
+  xing: username
+  medium: username
 
 # build settings
 permalink: pretty
