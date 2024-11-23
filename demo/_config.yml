@@ -37,6 +37,8 @@ social:
 # build settings
 permalink: pretty
 exclude:
-  - docker-compose.yml
   - LICENSE
   - README.md
+  - Gemfile
+  - vendor/
+  - docker-compose.yml
