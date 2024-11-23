@@ -4,7 +4,7 @@ title: On the use of icons
 lead: A very quick guide.
 ---
 
-The icons used throughout this theme are partly custom-made, and partly come from the [Iconoir](https://iconoir.com/) library. More can be created or downloaded from the Iconoir website as svg files, and saved in `assets/svg` for use in your website.
+The icons used in this theme are partly custom-made, and partly come from the [Iconoir](https://iconoir.com/) library. More can be downloaded from the Iconoir website as svg files and saved in `_includes/svg` for use in your website.
 
 Here's an overview of icons that already ship with the theme.
 
@@ -18,47 +18,93 @@ Here's an overview of icons that already ship with the theme.
   <tbody>
     <tr>
       <td>Navigation</td>
-      <td>{% include svg/arrow-left-circled.svg %} {% include svg/arrow-right-circled.svg %} {% include svg/nav-arrow-left.svg %} {% include svg/nav-arrow-right.svg %} {% include svg/nav-arrow-down.svg %}</td>
+      <td>
+      {% include svg/arrow-left-circled.svg %}
+      {% include svg/arrow-right-circled.svg %}
+      {% include svg/nav-arrow-down.svg %}
+      {% include svg/nav-arrow-left.svg %}
+      {% include svg/nav-arrow-right.svg %}
+      </td>
     </tr>
     <tr>
       <td>Actions</td>
-      <td>{% include svg/download-circled-outline.svg %} {% include svg/download-square-outline.svg %} {% include svg/open-in-browser.svg %} {% include svg/open-in-window.svg %} {% include svg/open-new-window.svg %}</td>
+      <td>
+      {% include svg/download-circled-outline.svg %}
+      {% include svg/download-square-outline.svg %}
+      {% include svg/open-in-browser.svg %}
+      {% include svg/open-in-window.svg %}
+      {% include svg/open-new-window.svg %}
+      </td>
     </tr>
     <tr>
       <td>Communication</td>
-      <td>{% include svg/phone.svg %} {% include svg/mail.svg %} {% include svg/internet.svg %} {% include svg/send-mail-circled.svg %}</td>
+      <td>
+      {% include svg/internet.svg %}
+      {% include svg/mail.svg %}
+      {% include svg/phone.svg %}
+      {% include svg/send-mail-circled.svg %}
+      </td>
     </tr>
     <tr>
       <td>Maps</td>
-      <td>{% include svg/pin-alt.svg %}</td>
+      <td>
+      {% include svg/pin-alt.svg %}
+      </td>
     </tr>
     <tr>
       <td>Social</td>
-      <td>{% include svg/facebook.svg %} {% include svg/twitter.svg %} {% include svg/instagram.svg %} {% include svg/linkedin.svg %} {% include svg/stackoverflow.svg %} {% include svg/google-circled.svg %}</td>
+      <td>
+      {% include svg/bluesky.svg %}
+      {% include svg/facebook.svg %}
+      {% include svg/google-circled.svg %}
+      {% include svg/instagram.svg %}
+      {% include svg/linkedin.svg %}
+      {% include svg/mastodon.svg %}
+      {% include svg/medium.svg %}
+      {% include svg/stackoverflow.svg %}
+      {% include svg/twitter.svg %}
+      {% include svg/x.svg %}
+      {% include svg/xing.svg %}
+      </td>
     </tr>
     <tr>
       <td>Git</td>
-      <td>{% include svg/github.svg %} {% include svg/github-outline.svg %}</td>
+      <td>
+      {% include svg/github-outline.svg %}
+      {% include svg/github.svg %}
+      </td>
     </tr>
     <tr>
       <td>Security</td>
-      <td>{% include svg/key-alt-circled.svg %}</td>
+      <td>
+      {% include svg/key-alt-circled.svg %}
+      </td>
     </tr>
     <tr>
       <td>Users</td>
-      <td>{% include svg/user-circle-alt.svg %}</td>
+      <td>
+      {% include svg/user-circle-alt.svg %}
+      </td>
     </tr>
     <tr>
       <td>CV</td>
-      <td>{% include svg/cv-circled.svg %}</td>
+      <td>
+      {% include svg/cv-circled.svg %}
+      </td>
     </tr>
     <tr>
       <td>Academic</td>
-      <td>{% include svg/orcid.svg %} {% include svg/clarivate-circled.svg %} {% include svg/scopus-circled.svg %}</td>
+      <td>
+      {% include svg/clarivate-circled.svg %}
+      {% include svg/orcid.svg %}
+      {% include svg/scopus-circled.svg %}
+      </td>
     </tr>
     <tr>
       <td>Chess</td>
-      <td>{% include svg/lichess-circled.svg %}</td>
+      <td>
+      {% include svg/lichess-circled.svg %}
+      </td>
     </tr>
   </tbody>
 </table>
@@ -102,4 +148,4 @@ Each icon available from Iconoir is essentially a text file:
 
 {% endhighlight %}
 
-The `<?...?>` tag at the beginning is useful for apps but not for a Jekyll website, and will sometimes show up as a string of text, so it needs to be deleted. This has already been done for the default icons, but remember to do it also for every additional icon you download.
+The `<?...?>` tag at the beginning is useful for apps but not for a Jekyll website, and it can be deleted.
