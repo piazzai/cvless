@@ -4,7 +4,7 @@ title: On the use of icons
 lead: A very quick guide.
 ---
 
-The icons used throughout this theme are partly custom-made, and partly come from the [Iconoir](https://iconoir.com/) library. More can be created or downloaded from the Iconoir website as svg files, and saved in `assets/svg` for use in your website.
+The icons used in this theme are partly custom-made, and partly come from the [Iconoir](https://iconoir.com/) library. More can be downloaded from the Iconoir website as svg files and saved in `_includes/svg` for use in your website.
 
 Here's an overview of icons that already ship with the theme.
 
@@ -148,4 +148,4 @@ Each icon available from Iconoir is essentially a text file:
 
 {% endhighlight %}
 
-The `<?...?>` tag at the beginning is useful for apps but not for a Jekyll website, and will sometimes show up as a string of text, so it needs to be deleted. This has already been done for the default icons, but remember to do it also for every additional icon you download.
+The `<?...?>` tag at the beginning is useful for apps but not for a Jekyll website, and it can be deleted.
