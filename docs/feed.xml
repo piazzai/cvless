@@ -1,73 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://piazzai.github.io/cvless/feed.xml" rel="self" type="application/atom+xml" /><link href="https://piazzai.github.io/cvless/" rel="alternate" type="text/html" /><updated>2024-11-23T18:12:36+01:00</updated><id>https://piazzai.github.io/cvless/feed.xml</id><title type="html">cvless</title><subtitle>Jekyll theme for a beautiful online CV</subtitle><author><name>Place Holder</name><email>username@domain.com</email></author><entry><title type="html">What Jekyll is</title><link href="https://piazzai.github.io/cvless/2022/09/01/whats-jekyll/" rel="alternate" type="text/html" title="What Jekyll is" /><published>2022-09-01T00:00:00+02:00</published><updated>2022-09-01T00:00:00+02:00</updated><id>https://piazzai.github.io/cvless/2022/09/01/whats-jekyll</id><content type="html" xml:base="https://piazzai.github.io/cvless/2022/09/01/whats-jekyll/"><![CDATA[<p><a href="https://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/jekyll/jekyll/blob/master/README.markdown">the project’s readme</a>:</p>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<blockquote>
+  <p>Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
+</blockquote>
 
-  <title>
-    
-    cvless &middot; On the use of icons
-    
-  </title>
+<p>It’s an immensely useful tool. Find out more on <a href="https://github.com/jekyll/jekyll">GitHub</a>.</p>]]></content><author><name>Place Holder</name><email>username@domain.com</email></author><summary type="html"><![CDATA[Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme:]]></summary></entry><entry><title type="html">Example content</title><link href="https://piazzai.github.io/cvless/2022/08/15/example-content/" rel="alternate" type="text/html" title="Example content" /><published>2022-08-15T00:00:00+02:00</published><updated>2022-08-15T00:00:00+02:00</updated><id>https://piazzai.github.io/cvless/2022/08/15/example-content</id><content type="html" xml:base="https://piazzai.github.io/cvless/2022/08/15/example-content/"><![CDATA[<p class="message"><strong>Howdy!</strong> This is an example blog post that shows several types of <abbr>html</abbr> content supported in this theme.</p>
 
-  <link rel="stylesheet" href="https://piazzai.github.io/cvless/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://piazzai.github.io/cvless/assets/css/open-color.min.css">
-  <link rel="stylesheet" href="https://piazzai.github.io/cvless/assets/css/syntax.css">
-  <link rel="stylesheet" href="https://piazzai.github.io/cvless/assets/css/styles.min.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://piazzai.github.io/cvless/assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://piazzai.github.io/cvless/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://piazzai.github.io/cvless/assets/favicon-16x16.png">
-  <link rel="manifest" href="https://piazzai.github.io/cvless/assets/site.webmanifest">
-  <link rel="alternate" type="application/atom+xml" title="cvless" href="https://piazzai.github.io/cvless/atom.xml">
+<ul id="markdown-toc">
+  <li><a href="#inline-html-elements" id="markdown-toc-inline-html-elements">Inline HTML elements</a></li>
+  <li><a href="#footnotes" id="markdown-toc-footnotes">Footnotes</a></li>
+  <li><a href="#heading" id="markdown-toc-heading">Heading</a>    <ul>
+      <li><a href="#code" id="markdown-toc-code">Code</a></li>
+      <li><a href="#gists-via-github-pages" id="markdown-toc-gists-via-github-pages">Gists via GitHub Pages</a></li>
+      <li><a href="#lists" id="markdown-toc-lists">Lists</a></li>
+      <li><a href="#images" id="markdown-toc-images">Images</a></li>
+      <li><a href="#tables" id="markdown-toc-tables">Tables</a></li>
+    </ul>
+  </li>
+</ul>
 
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="On the use of icons" />
-<meta name="author" content="Place Holder" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="The icons used in this theme are partly custom-made, and partly come from the Iconoir library. More can be downloaded from the Iconoir website as svg files and saved in _includes/svg for use in your website." />
-<meta property="og:description" content="The icons used in this theme are partly custom-made, and partly come from the Iconoir library. More can be downloaded from the Iconoir website as svg files and saved in _includes/svg for use in your website." />
-<link rel="canonical" href="https://piazzai.github.io/cvless/2022/08/01/on-the-use-of-icons/" />
-<meta property="og:url" content="https://piazzai.github.io/cvless/2022/08/01/on-the-use-of-icons/" />
-<meta property="og:site_name" content="cvless" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-08-01T00:00:00+02:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="On the use of icons" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Place Holder"},"dateModified":"2022-08-01T00:00:00+02:00","datePublished":"2022-08-01T00:00:00+02:00","description":"The icons used in this theme are partly custom-made, and partly come from the Iconoir library. More can be downloaded from the Iconoir website as svg files and saved in _includes/svg for use in your website.","headline":"On the use of icons","mainEntityOfPage":{"@type":"WebPage","@id":"https://piazzai.github.io/cvless/2022/08/01/on-the-use-of-icons/"},"url":"https://piazzai.github.io/cvless/2022/08/01/on-the-use-of-icons/"}</script>
-<!-- End Jekyll SEO tag -->
+<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
 
-</head>
+<blockquote>
+  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</blockquote>
 
+<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
 
-<body>
+<h2 id="inline-html-elements">Inline HTML elements</h2>
 
-  
-  
+<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
 
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col col-sm-10 col-md-8 col-lg-6">
-        <article>
-  <header>
-  <div>
-    <a class="site-title" href="https://piazzai.github.io/cvless">cvless</a>
-    <small>
-      
-      Jekyll theme
-      
-    </small>
-  </div>
-  <a id="theme-toggle" class="toggle-icon" onclick="modeSwitcher()"></a>
-</header>
+<ul>
+  <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
+  <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
+  <li><mark>To highlight</mark>, use <code class="language-plaintext highlighter-rouge">&lt;mark&gt;</code>.</li>
+  <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr>, should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code> with an optional <code class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
+  <li>Citations, like <cite>— Franz Kafka</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+  <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+  <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+</ul>
 
-  <main>
-    <h1 class="post-title">On the use of icons</h1>
-    <time datetime="2022-08-01T00:00:00+02:00" class="post-date">August  1, 2022</time>
-    <p class="lead">A very quick guide.</p>
-    <p>The icons used in this theme are partly custom-made, and partly come from the <a href="https://iconoir.com/">Iconoir</a> library. More can be downloaded from the Iconoir website as svg files and saved in <code class="language-plaintext highlighter-rouge">_includes/svg</code> for use in your website.</p>
+<p>Most of these elements are styled by browsers with few modifications in the CSS of this theme.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<p>Footnotes are supported as part of the Markdown syntax. Here’s one in action. Clicking this number<sup id="fnref:fn-sample" role="doc-noteref"><a href="#fn:fn-sample" class="footnote" rel="footnote">1</a></sup> will lead you to a footnote. The syntax looks like:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">Clicking this number[^fn-sample]</code></pre></figure>
+
+<p>Each footnote needs the <code class="language-plaintext highlighter-rouge">^fn-</code> prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">[^fn-sample]: Handy! Now click the return link to go back.</code></pre></figure>
+
+<p>You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the page.</p>
+
+<h2 id="heading">Heading</h2>
+
+<p>This section shows hierarchical headings. Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+
+<h3 id="code">Code</h3>
+
+<p>Inline code is available with the <code class="language-plaintext highlighter-rouge">&lt;code&gt;</code> element. Snippets of multiple lines of code are supported through Rouge. Longer lines are displayed through horizontal scrolling. You may also use code fencing (triple backticks) for rendering code.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example can be run directly in your JavaScript console</span>
+
+<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="c1">// Call the function</span>
+<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+<span class="c1">// &gt; 8</span></code></pre></figure>
+
+<p>You may also optionally show code snippets with line numbers. Add <code class="language-plaintext highlighter-rouge">linenos</code> to the Rouge tags.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="code"><pre><span class="c1">// Example can be run directly in your JavaScript console</span>
+
+<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="c1">// Call the function</span>
+<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+<span class="c1">// &gt; 8</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>By default, the theme uses GitHub-themed syntax highlighting. The specifics are included in the syntax stylesheet, which is automatically generated by <code class="language-plaintext highlighter-rouge">rougify</code>.</p>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+
+<h3 id="gists-via-github-pages">Gists via GitHub Pages</h3>
+
+<p>Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
+
+<script src="https://gist.github.com/8395a3dbdca0e34d55cfed5d96ea2f14.js?file=cvless-example.html"> </script>
+
+<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.</p>
+
+<h3 id="lists">Lists</h3>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+<ul>
+  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+  <li>Donec id elit non mi porta gravida at eget metus.</li>
+  <li>Nulla vitae elit libero, a pharetra augue.</li>
+</ul>
+
+<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+
+<ol>
+  <li>Vestibulum id ligula porta felis euismod semper.</li>
+  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+</ol>
+
+<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+
+<dl>
+  <dt>HyperText Markup Language (HTML)</dt>
+  <dd>The language used to describe and define the content of a Web page</dd>
+
+  <dt>Cascading Style Sheets (CSS)</dt>
+  <dd>Used to describe the appearance of Web content</dd>
+
+  <dt>JavaScript (JS)</dt>
+  <dd>The programming language used to build advanced Web sites and applications</dd>
+</dl>
+
+<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+<h3 id="images">Images</h3>
+
+<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
+
+<p><img src="https://via.placeholder.com/800x400" alt="placeholder" title="Large example image" />
+<img src="https://via.placeholder.com/400x200" alt="placeholder" title="Medium example image" />
+<img src="https://via.placeholder.com/200x200" alt="placeholder" title="Small example image" /></p>
+
+<h3 id="tables">Tables</h3>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Upvotes</th>
+      <th>Downvotes</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Totals</td>
+      <td>21</td>
+      <td>23</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>7</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. This concludes the post.</p>
+
+<hr />
+
+<p>Want to see something else added? <a href="https://github.com/piazzai/cvless/issues/new">Open an issue.</a></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:fn-sample" role="doc-endnote">
+      <p>Handy! Now click the return link to go back. <a href="#fnref:fn-sample" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Place Holder</name><email>username@domain.com</email></author><summary type="html"><![CDATA[Howdy! This is an example blog post that shows several types of html content supported in this theme.]]></summary></entry><entry><title type="html">On the use of icons</title><link href="https://piazzai.github.io/cvless/2022/08/01/on-the-use-of-icons/" rel="alternate" type="text/html" title="On the use of icons" /><published>2022-08-01T00:00:00+02:00</published><updated>2022-08-01T00:00:00+02:00</updated><id>https://piazzai.github.io/cvless/2022/08/01/on-the-use-of-icons</id><content type="html" xml:base="https://piazzai.github.io/cvless/2022/08/01/on-the-use-of-icons/"><![CDATA[<p>The icons used in this theme are partly custom-made, and partly come from the <a href="https://iconoir.com/">Iconoir</a> library. More can be downloaded from the Iconoir website as svg files and saved in <code class="language-plaintext highlighter-rouge">_includes/svg</code> for use in your website.</p>
 
 <p>Here’s an overview of icons that already ship with the theme.</p>
 
@@ -236,24 +364,4 @@
 
 <figure class="highlight"><pre><code class="language-text" data-lang="text">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"&gt;&lt;path d="M16 22.027v-2.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7a5.44 5.44 0 00-1.5-3.75 5.07 5.07 0 00-.09-3.77s-1.18-.35-3.91 1.48a13.38 13.38 0 00-7 0c-2.73-1.83-3.91-1.48-3.91-1.48A5.07 5.07 0 005 5.797a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7a3.37 3.37 0 00-.94 2.58v2.87M9 20.027c-3 .973-5.5 0-7-3" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"&gt;&lt;/path&gt;&lt;/svg&gt;</code></pre></figure>
 
-<p>The <code class="language-plaintext highlighter-rouge">&lt;?...?&gt;</code> tag at the beginning is useful for apps but not for a Jekyll website, and it can be deleted.</p>
-
-  </main>
-  <footer>
-  <small>&copy; <time datetime="2024-11-23T18:12:36+01:00">2024</time>
-    Place Holder. All rights reserved.</small>
-</footer>
-
-</article>
-
-      </div>
-    </div>
-  </div>
-  <script src="https://piazzai.github.io/cvless/assets/js/bootstrap.min.js"></script>
-  
-  <script src="https://piazzai.github.io/cvless/assets/js/darkmode.js"></script>
-  
-  
-</body>
-
-</html>
+<p>The <code class="language-plaintext highlighter-rouge">&lt;?...?&gt;</code> tag at the beginning is useful for apps but not for a Jekyll website, and it can be deleted.</p>]]></content><author><name>Place Holder</name><email>username@domain.com</email></author><summary type="html"><![CDATA[The icons used in this theme are partly custom-made, and partly come from the Iconoir library. More can be downloaded from the Iconoir website as svg files and saved in _includes/svg for use in your website.]]></summary></entry></feed>
