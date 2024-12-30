@@ -45,7 +45,7 @@ After you are done creating the basic files, run bundler:
 
 Or install the gem yourself as:
 
-    $ gem install jekyll-nagymaros
+    $ gem install cvless
 
 To customize hidden files, you can create new files with the same names and paths. For example, to change the layout of the index page, you can create a `_layouts` folder and a file `index.html` within this folder that contains your custom code. During build, Jekyll will give priority to your files over the theme's.
 
