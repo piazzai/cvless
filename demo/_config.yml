@@ -17,22 +17,18 @@ photo: assets/files/photo.jpg
 address: Foobar Hall 1.23
 phone: +1 234 567 890
 
-# social media links
-social:
-  facebook: username
-  x: username
-  mastodon:
-    user: username
-    domain: mastodon.social
-  bluesky:
-    user: username
-    domain: bsky.social
-  instagram: username
-  linkedin: username
-  xing: username
-  stackoverflow: 0000000/username
-  medium: username
-  github: username
+# profile links
+profile:
+  facebook: https://www.facebook.com/username
+  x: https://x.com/username
+  mastodon: https://mastodon.social/@username
+  bluesky: https://bsky.app/profile/username.bsky.social
+  instagram: https://www.instagram.com/username
+  linkedin: https://www.linkedin.com/in/username
+  xing: https://www.xing.com/profile/username
+  stackoverflow: https://stackoverflow.com/users/0000000/username
+  medium: https://medium.com/@username
+  github: https://github.com/username
 
 # build settings
 permalink: pretty

@@ -6,35 +6,35 @@
     <h1 class="particles-title">{{ site.title }}</h1>
     <h1 class="particles-subtitle">{{ site.taglong }}</h1>
     <div class="nowrap">
-      {% if site.social.facebook %}
-      <a class="particles-icon" href="https://www.facebook.com/{{ site.social.facebook }}">{% include svg/facebook.svg %}</a>
+      {% if site.profile.facebook %}
+      <a class="particles-icon" href="{{ site.profile.facebook }}">{% include svg/facebook.svg %}</a>
       {% endif %}
-      {% if site.social.x %}
-      <a class="particles-icon" href="https://twitter.com/{{ site.social.x }}">{% include svg/x.svg %}</a>
+      {% if site.profile.x %}
+      <a class="particles-icon" href="{{ site.profile.x }}">{% include svg/x.svg %}</a>
       {% endif %}
-      {% if site.social.mastodon %}
-      <a class="particles-icon" href="https://{{ site.social.mastodon.domain }}/@{{ site.social.mastodon.user }}">{% include svg/mastodon.svg %}</a>
+      {% if site.profile.mastodon %}
+      <a class="particles-icon" href="{{ site.profile.mastodon }}">{% include svg/mastodon.svg %}</a>
       {% endif %}
-      {% if site.social.bluesky %}
-      <a class="particles-icon" href="https://bsky.app/profile/{{ site.social.bluesky.user }}.{{ site.social.bluesky.domain }}">{% include svg/bluesky.svg %}</a>
+      {% if site.profile.bluesky %}
+      <a class="particles-icon" href="{{ site.profile.bluesky }}">{% include svg/bluesky.svg %}</a>
       {% endif %}
-      {% if site.social.instagram %}      
-      <a class="particles-icon" href="https://www.instagram.com/{{ site.social.instagram }}">{% include svg/instagram.svg %}</a>
+      {% if site.profile.instagram %}      
+      <a class="particles-icon" href="{{ site.profile.instagram }}">{% include svg/instagram.svg %}</a>
       {% endif %}
-      {% if site.social.linkedin %}
-      <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{% include svg/linkedin.svg %}</a>
+      {% if site.profile.linkedin %}
+      <a class="particles-icon" href="{{ site.profile.linkedin }}">{% include svg/linkedin.svg %}</a>
       {% endif %}
-      {% if site.social.xing %}
-      <a class="particles-icon" href="https://www.xing.com/profile/{{ site.social.xing }}">{% include svg/xing.svg %}</a>
+      {% if site.profile.xing %}
+      <a class="particles-icon" href="{{ site.profile.xing }}">{% include svg/xing.svg %}</a>
       {% endif %}
-      {% if site.social.stackoverflow %}
-      <a class="particles-icon" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}">{% include svg/stackoverflow.svg %}</a>
+      {% if site.profile.stackoverflow %}
+      <a class="particles-icon" href="{{ site.profile.stackoverflow }}">{% include svg/stackoverflow.svg %}</a>
       {% endif %}
-      {% if site.social.medium %}
-      <a class="particles-icon" href="https://medium.com/@{{ site.social.medium }}">{% include svg/medium.svg %}</a>
+      {% if site.profile.medium %}
+      <a class="particles-icon" href="{{ site.profile.medium }}">{% include svg/medium.svg %}</a>
       {% endif %}
-      {% if site.social.github %}
-      <a class="particles-icon" href="https://github.com/{{ site.social.github }}">{% include svg/github.svg %}</a>
+      {% if site.profile.github %}
+      <a class="particles-icon" href="{{ site.profile.github }}">{% include svg/github.svg %}</a>
       {% endif %}
       <a class="particles-icon" href="cv">{% include svg/cv-circled.svg %}</a>
     </div>
