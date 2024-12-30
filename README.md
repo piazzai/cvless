@@ -61,7 +61,7 @@ In addition to these files, you can customize favicons in the `assets` folder. F
 
 ## Local development
 
-The `demo` folder includes a docker-compose file that allows you to quickly setup a container running Jekyll. If you don't already have Docker and Docker Compose installed, you can install them using the following guides:
+The `demo` folder includes a `docker-compose.yml` file that allows you to quickly setup a container running Jekyll. If you don't already have Docker and Docker Compose installed, you can install them using the following guides:
 
 * [Docker](https://docs.docker.com/get-docker/)
 * [Docker Compose](https://docs.docker.com/compose/install/)
