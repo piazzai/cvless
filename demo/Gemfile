@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem 'cvless', '~> 2.3'
+gem 'cvless', '~> 2.4'
