@@ -36,7 +36,9 @@
       {% if site.profile.github %}
       <a class="particles-icon" href="{{ site.profile.github }}">{% include svg/github.svg %}</a>
       {% endif %}
+      {% if site.profile.cv != false %}
       <a class="particles-icon" href="cv">{% include svg/cv-circled.svg %}</a>
+      {% endif %}
     </div>
   </div>
   <div class="particles-scroll">
