@@ -13,7 +13,7 @@
       <a class="particles-icon" href="{{ site.profile.x }}">{% include svg/x.svg %}</a>
       {% endif %}
       {% if site.profile.mastodon %}
-      <a class="particles-icon" href="{{ site.profile.mastodon }}">{% include svg/mastodon.svg %}</a>
+      <a class="particles-icon" rel="me" href="{{ site.profile.mastodon }}">{% include svg/mastodon.svg %}</a>
       {% endif %}
       {% if site.profile.bluesky %}
       <a class="particles-icon" href="{{ site.profile.bluesky }}">{% include svg/bluesky.svg %}</a>
@@ -35,6 +35,9 @@
       {% endif %}
       {% if site.profile.github %}
       <a class="particles-icon" href="{{ site.profile.github }}">{% include svg/github.svg %}</a>
+      {% endif %}
+      {% if site.author.email %}
+      <a class="particles-icon" href="mailto:{{ site.author.email }}">{% include svg/mail.svg %}</a>
       {% endif %}
       {% if site.profile.cv != false %}
       <a class="particles-icon" href="cv">{% include svg/cv-circled.svg %}</a>
