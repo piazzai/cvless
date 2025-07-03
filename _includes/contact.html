@@ -6,9 +6,15 @@
     <li>{{ jobline }}</li>
     {% endfor %}
     {% endif %}
+    {% if site.address %}
     <li><span class="li-icon">{% include svg/pin-alt.svg %}</span><span>{{ site.address }}</span></li>
+    {% endif %}
+    {% if site.phone %}
     <li><span class="li-icon">{% include svg/phone.svg %}</span><span>{{ site.phone }}</span></li>
+    {% endif %}
+    {% if site.author.email %}
     <li><span class="li-icon">{% include svg/mail.svg %}</span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+    {% endif %}
     <li><span class="li-icon">{% include svg/internet.svg %}</span><a href="{{ site.url }}">{{ site.url }}</a></li>
   </ul>
 </div>
