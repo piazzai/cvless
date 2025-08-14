@@ -42,7 +42,6 @@ exclude:
   - README.md
   - Gemfile
   - vendor/
-  - docker-compose.yml
 
 plugins:
   - jekyll-feed
