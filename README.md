@@ -8,8 +8,6 @@ Light and dark modes are available. The theme initializes based on system prefer
 
 See the [demo](https://piazzai.github.io/cvless) to get a better sense of what the theme looks like.
 
-![](https://github.com/piazzai/cvless/blob/master/screenshot.png)
-
 ## Installation
 
 The theme can be installed as usual by cloning this repository and editing the files. However, it is far more convenient to install it as a gem, in which case all the files you do not want or need to customize remain hidden from view, but will still be read and processed during build.
