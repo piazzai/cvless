@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "cvless"
   spec.version       = "2.7.4"
   spec.authors       = ["piazzai"]
-  spec.email         = ["42124135+piazzai@users.noreply.github.com"]
+  spec.email         = ["hello@piazzai.addy.io"]
 
   spec.summary       = "Jekyll theme for a beautiful online CV "
   spec.homepage      = "https://github.com/piazzai/cvless"
